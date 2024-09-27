@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'HeaderFont';
+  src: url('./assets/Quattrocento_Sans/QuattrocentoSans-Regular.ttf') format('tft'),
+    url('./assets/Quattrocento_Sans/QuattrocentoSans-Italic.ttf') format('tft');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BodyFont';
+  src: url('./assets/Quattrocento/Quattrocento-Bold.ttf') format('tft'),
+    url('./assets/Quattrocento/Quattrocento-Regular.ttf') format('tft');
+  font-weight: normal;
+  font-style: normal;
+}
