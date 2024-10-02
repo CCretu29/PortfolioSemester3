@@ -14,10 +14,10 @@ function LearningOutcomesPage() {
             {/* Learning Outcomes Section */}
             <div className="relative h-[80vh] flex flex-col justify-center">
                 <h1 className="absolute top-1/6 left-40 text-6xl text-darkPurple md:text-8xl font-bold font-header italic">
-                    Learning <br />
+                    Learning Outcomes<br />
                 </h1>
-                <h2 className="absolute top-[60%] left-40 text-7xl text-darkPurple md:text-6xl font-bold font-header italic">
-                    Outcomes
+                <h2 className="absolute top-[60%] left-40 text-5xl text-normalPurple md:text-6xl font-header italic">
+                    Burden of proof
                 </h2>
 
                 {/* Bubbles */}
