@@ -2,10 +2,11 @@ import React, { useRef } from 'react';
 import selfPhoto from "../assets/photos/me.jpg";
 import auroraStudio from "../assets/photos/auroraProject.jpg";
 import replacePhoto from "../assets/photos/replacement_photo.jpg";
+import portfolioPhoto from "../assets/photos/portfolioPhoto.png"
 
 function MainPage() {
   const aboutMeRef = useRef(null);
-  const checkWorkRef = useRef(null); // Reference for "Check Out My Work" section
+  const checkWorkRef = useRef(null);
 
   const handleScroll = (ref) => {
     if (ref.current) {
@@ -37,7 +38,7 @@ function MainPage() {
       {/* Discover Button */}
       <div className="flex justify-center mb-4">
         <button
-          onClick={() => handleScroll(aboutMeRef)} // Adjust to scroll to "About Me" section
+          onClick={() => handleScroll(aboutMeRef)} // scroll to "About Me" section
           className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
         >
           Discover
@@ -46,12 +47,11 @@ function MainPage() {
 
       {/* About Me Section */}
       <div ref={aboutMeRef} className="w-6/8 min-h-screen flex flex-col md:flex-row items-center justify-around py-16">
-        {/* Placeholder text */}
         <div className="md:w-1/2 px-36">
           <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-4">About Me</h2>
           <p className="text-md text-darkBlack">
             I am 22 years old, I come from Bucharest, Romania.
-            After I finish this study program my dream is to become a front-end developer. I love programming, I consider myself a little creative. I love rainy days, coffee and photography.
+            After I finish this study program my dream is to become a front-end developer. I love programming, I consider myself a little creative. I love rainy days, coffee, and photography.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ function MainPage() {
         <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-4">Check Out My Work</h2>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourusername" // Replace with your GitHub link
+            href="https://git.fhict.nl/I523382/my-work-semester-3-orange"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
@@ -90,7 +90,7 @@ function MainPage() {
             My GitHub
           </a>
           <a
-            href="/path/to/your/pdf.pdf" // Replace with your PDF link
+            href="/path/to/your/pdf.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
@@ -101,140 +101,127 @@ function MainPage() {
       </div>
 
       {/* Projects Section */}
-      <div className="flex items-center py-16 px-36">
-        <h2 className="text-4xl font-bold italic font-header text-darkPurple ml-16">Projects</h2>
-      </div>
+      <div className="flex flex-col items-left py-16 px-36">
+        <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-24">Projects</h2>
 
-      {/* New Section with Picture, Title, and Text */}
-      <div className="w-full min-h-[30vh] flex items-center justify-around py-18">
-        {/* Image acting as a button */}
-        <a href="/projects" className="w-1/4 p-4 ml-40">
-          <img
-            src={auroraStudio} 
-            alt="Aurora"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
-
-        {/* Title and Text of project */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-            Studio Project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This project is about creating our own studio as a group. Within this project you can find professional skills, design, development and media production. 
-          </p>
-        </div>
-      </div>
-
-      {/* Inverted Section with Picture, Title, and Text */}
-      <div className="w-full min-h-[30vh] flex items-center justify-around py-28">
-        {/* Title and Text */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-          Something project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This is another section with the layout inverted. You can add more details here about another project or content.
-          </p>
+        {/* Project 1*/}
+        <div className="w-full flex flex-col md:flex-row items-center mb-16">
+          <div className="md:w-1/3">
+            <img
+              src={replacePhoto}
+              alt="Assignments project"
+              className="w-full rounded-lg border-8 border-lightPurple" />
+          </div>
+          <div className="md:w-2/3 px-16">
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">My personal work</h2>
+            <p className="text-lg text-darkBlack font-body">
+              Here I will put some personal assignments that have nothing to do with the group projects. This assignments are here to add more proof for my learning outcomes.
+            </p>
+            {/* Project Button */}
+            <a
+              href="/projects/assignments"
+              className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
+            >
+              Go to Project
+            </a>
+          </div>
         </div>
 
-        {/* Image acting as a button */}
-        <a href="/another-project" className="w-1/4 p-4 -ml-80">
-          <img
-            src={replacePhoto} 
-            alt="Aurora Inverted"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
-      </div>
-
-            {/* New Section with Picture, Title, and Text */}
-            <div className="w-full min-h-[30vh] flex items-center justify-around py-18">
-        {/* Image acting as a button */}
-        <a href="/projects" className="w-1/4 p-4 ml-40">
-          <img
-            src={replacePhoto} 
-            alt="Aurora"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
-
-        {/* Title and Text of project */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-          Something Project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This is the text that explains the content or purpose of this section. You can link to another page, display some useful information, or describe the content related to the image.
-          </p>
-        </div>
-      </div>
-
-      {/* Inverted Section with Picture, Title, and Text */}
-      <div className="w-full min-h-[30vh] flex items-center justify-around py-28">
-        {/* Title and Text */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-          Something project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This is another section with the layout inverted. You can add more details here about another project or content.
-          </p>
+        {/* Project 2 */}
+        <div className="w-full flex flex-col md:flex-row items-center mb-16">
+          <div className="md:w-2/3 px-16 order-2 md:order-1">
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Portfolio</h2>
+            <p className="text-lg text-darkBlack font-body">
+              This is my portfolio page, where I explain my creating process, iterations and coding.
+            </p>
+            {/* Project Button */}
+            <a
+              href="/projects/portfolio"
+              className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
+            >
+              Go to Project
+            </a>
+          </div>
+          <div className="md:w-1/3 order-1 md:order-2">
+            <img
+              src={portfolioPhoto}
+              alt="Portfolio"
+              className="w-full rounded-lg border-8 border-lightPurple" />
+          </div>
         </div>
 
-        {/* Image acting as a button */}
-        <a href="/another-project" className="w-1/4 p-4 -ml-80">
-          <img
-            src={replacePhoto} 
-            alt="Aurora Inverted"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
-      </div>
-
-      {/* New Section with Picture, Title, and Text */}
-      <div className="w-full min-h-[30vh] flex items-center justify-around py-18">
-        {/* Image acting as a button */}
-        <a href="/projects" className="w-1/4 p-4 ml-40">
-          <img
-            src={replacePhoto} 
-            alt="Aurora"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
-
-        {/* Title and Text of project */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-          Something Project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This is the text that explains the content or purpose of this section. You can link to another page, display some useful information, or describe the content related to the image.
-          </p>
-        </div>
-      </div>
-
-      {/* Inverted Section with Picture, Title, and Text */}
-      <div className="w-full min-h-[30vh] flex items-center justify-around py-28">
-        {/* Title and Text */}
-        <div className="w-2/3 px-16">
-          <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">
-            Something project
-          </h2>
-          <p className="text-lg text-darkBlack font-body">
-            This is another section with the layout inverted. You can add more details here about another project or content.
-          </p>
+        {/* Project 3 */}
+        <div className="w-full flex flex-col md:flex-row items-center mb-16">
+          <div className="md:w-1/3">
+            <img
+              src={auroraStudio}
+              alt="Aurora Studio"
+              className="w-full rounded-lg border-8 border-lightPurple" />
+          </div>
+          <div className="md:w-2/3 px-16">
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Studio Project</h2>
+            <p className="text-lg text-darkBlack font-body">
+              This project is about creating our own studio as a group. Within this project, you can find professional skills, design, development, and media production.
+            </p>
+            {/* Project Button */}
+            <a
+              href="/projects/studio"
+              className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
+            >
+              Go to Project
+            </a>
+          </div>
         </div>
 
-        {/* Image acting as a button */}
-        <a href="/another-project" className="w-1/4 p-4 -ml-80">
-          <img
-            src={replacePhoto} 
-            alt="Aurora Inverted"
-            className="w-full rounded-lg border-8 border-lightPurple hover:opacity-80 transition-opacity duration-300 cursor-pointer" />
-        </a>
+        {/* Project 4 */}
+        <div className="w-full flex flex-col md:flex-row items-center mb-16">
+          <div className="md:w-2/3 px-16 order-2 md:order-1">
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Client project</h2>
+            <p className="text-lg text-darkBlack font-body">
+              This is the client project. To be added.
+            </p>
+            {/* Project Button */}
+            <a
+              href="/projects/client"
+              className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
+            >
+              Go to Project
+            </a>
+          </div>
+          <div className="md:w-1/3 order-1 md:order-2">
+            <img
+              src={replacePhoto}
+              alt="Client"
+              className="w-full rounded-lg border-8 border-lightPurple" />
+          </div>
+        </div>
+
+        {/* Project 5 */}
+        <div className="w-full flex flex-col md:flex-row items-center mb-16">
+          <div className="md:w-1/3">
+            <img
+              src={replacePhoto}
+              alt="Passion project"
+              className="w-full rounded-lg border-8 border-lightPurple" />
+          </div>
+          <div className="md:w-2/3 px-16">
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Passion Project</h2>
+            <p className="text-lg text-darkBlack font-body">
+              This is the Passion project. To be added.
+            </p>
+            {/* Project Button */}
+            <a
+              href="/projects/passion-project"
+              className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
+            >
+              Go to Project
+            </a>
+          </div>
+        </div>
+
+
+
       </div>
-
-
-
-
-
     </div>
   );
 }
