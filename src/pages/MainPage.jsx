@@ -2,7 +2,8 @@ import React, { useRef } from 'react';
 import selfPhoto from "../assets/photos/me.jpg";
 import auroraStudio from "../assets/photos/auroraProject.jpg";
 import replacePhoto from "../assets/photos/replacement_photo.jpg";
-import portfolioPhoto from "../assets/photos/portfolioPhoto.png"
+import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
+import ReadingGuide from "../assets/pdf/ReadingGuide.pdf";
 
 function MainPage() {
   const aboutMeRef = useRef(null);
@@ -90,7 +91,7 @@ function MainPage() {
             My GitHub
           </a>
           <a
-            href="/path/to/your/pdf.pdf"
+            href={ReadingGuide}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
@@ -182,7 +183,7 @@ function MainPage() {
             </p>
             {/* Project Button */}
             <a
-              href="/projects/client"
+              href="/projects/client-project"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project

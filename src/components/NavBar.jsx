@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ReadingGuide from "../assets/pdf/ReadingGuide.pdf";
 
 const NavBar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -60,7 +61,7 @@ const NavBar = () => {
                         <Link to="/learning-outcomes" className="text-darkBlack hover:underline">Learning Outcomes</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/path/to/ReadGuide.pdf" target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
+                        <a  href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
                             ReadGuide
                         </a>
                     </li>
