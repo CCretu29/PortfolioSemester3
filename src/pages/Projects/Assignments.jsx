@@ -40,19 +40,19 @@ function Assignments() {
                 </button>
             </div>
 
-            {/* Project introduction */}
-            <div className="px-40 py-24">
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">Title Here</h3> 
+            {/* Target Section - About Me */}
+            <div ref={aboutMeRef} className="px-40 py-24">
+                <h3 className="text-3xl text-darkPurple font-bold mb-4">About Me</h3> 
                 <p className="text-lg text-darkBlack">
-                    This is the text that will start on the left and go all the way across the screen. You can add more content here as needed to fill the space and make it look visually appealing. Adjust the content as necessary.
+                    This is the section you will scroll to.
                 </p>
             </div>
 
-            {/* Documents */}
+            {/* Additional Documents Section */}
             <div className="px-40 py-24"> 
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">Another Title Here</h3> 
+                <h3 className="text-3xl text-darkPurple font-bold mb-4">Assignment to be added</h3> 
                 <p className="text-lg text-darkBlack">
-                    This is the second text section, which will also start on the left and extend across the full width of the screen. Feel free to customize this content as needed.
+                    This is the text to be added.
                 </p>
             </div>
         </div>

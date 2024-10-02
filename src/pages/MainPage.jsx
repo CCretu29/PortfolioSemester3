@@ -48,8 +48,8 @@ function MainPage() {
       {/* About Me Section */}
       <div ref={aboutMeRef} className="w-6/8 min-h-screen flex flex-col md:flex-row items-center justify-around py-16">
         <div className="md:w-1/2 px-36">
-          <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-4">About Me</h2>
-          <p className="text-md text-darkBlack">
+          <h2 className="text-4xl font-bold italic font-header text-normalPurple mb-4">About Me</h2>
+          <p className="text-md text-darkBlack font-body">
             I am 22 years old, I come from Bucharest, Romania.
             After I finish this study program my dream is to become a front-end developer. I love programming, I consider myself a little creative. I love rainy days, coffee, and photography.
           </p>
@@ -79,7 +79,7 @@ function MainPage() {
 
       {/* Check Out My Work Section */}
       <div ref={checkWorkRef} className="flex flex-col items-center py-16">
-        <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-4">Check Out My Work</h2>
+        <h2 className="text-4xl font-bold italic font-header text-normalPurple mb-4">Check Out My Work</h2>
         <div className="flex space-x-4">
           <a
             href="https://git.fhict.nl/I523382/my-work-semester-3-orange"
@@ -102,7 +102,7 @@ function MainPage() {
 
       {/* Projects Section */}
       <div className="flex flex-col items-left py-16 px-36">
-        <h2 className="text-4xl font-bold italic font-header text-darkPurple mb-24">Projects</h2>
+        <h2 className="text-4xl font-bold italic font-header text-normalPurple mb-24">Projects</h2>
 
         {/* Project 1*/}
         <div className="w-full flex flex-col md:flex-row items-center mb-16">

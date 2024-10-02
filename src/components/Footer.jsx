@@ -6,16 +6,15 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex justify-between">
         
         <div>
-          <h1 className="text-2xl font-bold font-header mb-4">Claudia's Portfolio</h1>
+          <h1 className="text-2xl font-bold font-header italic mb-4">Claudia's Portfolio</h1>
         </div>
 
         
         <div>
           <h2 className="text-lg font-bold font-header mb-2">Useful Links</h2>
           <ul className="space-y-2 font-body">
-            <li><a href="/path-to-your-file1.pdf" className="hover:underline" target="_blank" rel="noopener noreferrer">Project Report</a></li>
-            <li><a href="/path-to-your-file2.pdf" className="hover:underline" target="_blank" rel="noopener noreferrer">Portfolio Guide</a></li>
-            <li><a href="/path-to-your-file3.pdf" className="hover:underline" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="/path-to-your-file1.pdf" className="hover:underline" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="/path-to-your-file2.pdf" className="hover:underline" target="_blank" rel="noopener noreferrer">Portfolio Reading Guide</a></li>
           </ul>
         </div>
 

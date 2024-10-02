@@ -40,9 +40,9 @@ function Studio() {
                 </button>
             </div>
 
-            {/* Project introduction */}
-            <div className="px-40 py-24">
-                <h3 className="text-3xl text-darkPurple font-bold font-header italic mb-4">Introduction</h3>
+            {/* Project Introduction */}
+            <div ref={aboutMeRef} className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold font-header italic mb-4">Introduction</h3>
                 <p className="text-lg text-darkBlack font-body">
                     I created a team, from three formal
                     intro-week teams. The first thing that
@@ -54,7 +54,7 @@ function Studio() {
 
             {/* Documents */}
             <div className="px-40 py-24">
-                <h3 className="text-3xl text-darkPurple font-bold font-header italic mb-4">Documents and research</h3>
+                <h3 className="text-3xl text-normalPurple font-bold font-header italic mb-4">Documents and research</h3>
                 <p className="text-lg text-darkBlack font-body">
                     I wrote a part of the Team Charter:
                     - Wrote my strengths and weaknesses
@@ -71,24 +71,30 @@ function Studio() {
                 </p>
             </div>
 
-            {/* New Section with Purple Box and Picture */}
-            <div className="flex justify-between items-center mt-16 mx-20">
-                {/* Text in purple box on the left */}
-                <div className="w-1/3 bg-lightPurple text-darkBlack p-10 rounded-lg ml-40">
-                    <p className="text-lg font-body">
-                        In this section, we gathered our project research and analyzed branding strategies.
-                        We wanted to align our visual identity with the values and mission of our studio. 
-                        Each team member contributed ideas for our brand colors, logo design, and overall theme.
-                    </p>
-                </div>
+            {/* New Section with Title, Purple Box, and Picture */}
+            <div className="flex flex-col items-start mt-16 mx-20">
+                {/* Title for the new section on the left */}
+                <h3 className="text-3xl text-normalPurple font-bold font-header italic mb-12 ml-20">Branding Analysis</h3>
 
-                {/* Image with purple border on the right */}
-                <div className="w-1/2 flex justify-center items-center">
-                    <img
-                        src="path_to_new_image"  // Replace with the actual image path
-                        alt="Branding Research"
-                        className="border-4 border-lightPurple rounded-lg w-[300px] h-[300px] object-cover"
-                    />
+                <div className="flex justify-between items-start w-full">
+                    {/* Text in purple box on the left */}
+                    <div className="w-1/3 bg-lightPurple text-darkBlack p-10 rounded-lg ml-40">
+                        <h4 className="text-xl font-bold italic font-body text-darkPurple mb-2">Branding Strategies</h4>
+                        <p className="text-lg font-body">
+                            In this section, we gathered our project research and analyzed branding strategies.
+                            We wanted to align our visual identity with the values and mission of our studio.
+                            Each team member contributed ideas for our brand colors, logo design, and overall theme.
+                        </p>
+                    </div>
+
+                    {/* Image with purple border on the right */}
+                    <div className="w-1/2 flex justify-center items-center">
+                        <img
+                            src="path_to_new_image"  // Replace with the actual image path
+                            alt="Branding Research"
+                            className="border-4 border-lightPurple rounded-lg w-[300px] h-[300px] object-cover"
+                        />
+                    </div>
                 </div>
             </div>
 

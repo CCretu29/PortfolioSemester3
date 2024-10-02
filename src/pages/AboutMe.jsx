@@ -34,7 +34,7 @@ function AboutMe() {
             {/* Discover Button */}
             <div className="flex justify-center mb-4">
                 <button
-                    onClick={() => handleScroll(aboutMeRef)} //  scroll to "About Me" section
+                    onClick={() => handleScroll(aboutMeRef)} // scroll to "About Me" section
                     className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
                 >
                     Discover
@@ -57,7 +57,6 @@ function AboutMe() {
                     </p>
                 </div>
 
-
                 <div className="md:w-1/3 p-8">
                     <img
                         src={selfPhoto}
@@ -66,8 +65,8 @@ function AboutMe() {
                 </div>
             </div>
 
-                        {/* Discover me */}
-                        <div className="flex justify-center -mt-24">
+            {/* Discover me */}
+            <div className="flex justify-center -mt-24">
                 <button
                     className="px-8 py-2 font-header text-lightPurple font-semibold text-4xl rounded-full">
                     Discover me
@@ -76,7 +75,7 @@ function AboutMe() {
 
             {/* Talents Section */}
             <div className="flex flex-col items-start px-40 py-8">
-                <h2 className="text-3xl font-bold font-heaader italic text-darkPurple mb-4">Talents</h2>
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Talents</h2>
                 <ul className="list-disc list-inside text-md text-darkBlack font-body">
                     <li>Programming</li>
                     <li>Organizing</li>
@@ -89,14 +88,13 @@ function AboutMe() {
 
             {/* Goals */}
             <div className="flex flex-col items-start px-40 py-16">
-                <h2 className="text-3xl font-bold font-header italic text-darkPurple mb-4">My goals</h2>
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">My goals</h2>
                 <p className="text-md text-darkBlack font-body">
-                I would like to become the best version of me in programming, to learn as
-many programming languages and frameworks as possible, both back-end
-and front-end, and to learn how to create and work with database. I
-would like to also practice my radiology nurse diploma in combination
-with ICT practice.
-
+                    I would like to become the best version of me in programming, to learn as
+                    many programming languages and frameworks as possible, both back-end
+                    and front-end, and to learn how to create and work with databases. I
+                    would like to also practice my radiology nurse diploma in combination
+                    with ICT practice.
                 </p>
             </div>
         </div>
