@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
+//pics links
 import selfPhoto from "../assets/photos/me.jpg";
 import auroraStudio from "../assets/photos/auroraProject.jpg";
 import replacePhoto from "../assets/photos/replacement_photo.jpg";
 import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
-import ReadingGuide from "../assets/pdf/ReadingGuide.pdf";
+//doc links
+import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
 function MainPage() {
   const aboutMeRef = useRef(null);

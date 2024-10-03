@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ReadingGuide from "../assets/pdf/ReadingGuide.pdf";
+import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
 const NavBar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

@@ -1,4 +1,12 @@
 import React, { useRef } from 'react';
+//doc links
+import { Link } from 'react-router-dom';
+import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
+import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
+import TeamCharter from "../assets/pdf/Studio/TeamCharter.pdf";
+import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+
+
 
 function LearningOutcomesPage() {
     const purpleBoxRef = useRef(null);
@@ -46,15 +54,15 @@ function LearningOutcomesPage() {
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">LO1 - Conceptualize, design, and develop</h2>
                         <div className="mb-6">
-                            <h3 className="text-xl font-body mb-2">Products:</h3>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 1</a></li>
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 2</a></li>
+                                <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
+                                <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-xl font-body mb-2">Reflection:</h3>
-                            <p className="text-md">This is a reflection for LO1.</p>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Orienting</p>
                         </div>
                     </div>
                 </div>
@@ -64,15 +72,14 @@ function LearningOutcomesPage() {
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">LO2 - Implementing Development Processes</h2>
                         <div className="mb-6">
-                            <h3 className="text-xl font-body mb-2">Products:</h3>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 1</a></li>
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 2</a></li>
+                                <li><a href="https://git.fhict.nl/I523382/my-work-semester-3-orange" target="_blank" rel="noopener noreferrer" className="underline">MyGit</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-xl font-body mb-2">Reflection:</h3>
-                            <p className="text-md">This is a reflection for LO2.</p>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Orienting </p>
                         </div>
                     </div>
                 </div>
@@ -82,15 +89,15 @@ function LearningOutcomesPage() {
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">LO3 - Enhancing User Experience</h2>
                         <div className="mb-6">
-                            <h3 className="text-xl font-body mb-2">Products:</h3>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 1</a></li>
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 2</a></li>
+                                <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
+                                <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-xl font-body mb-2">Reflection:</h3>
-                            <p className="text-md">This is a reflection for LO3.</p>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Beginning</p>
                         </div>
                     </div>
                 </div>
@@ -100,15 +107,15 @@ function LearningOutcomesPage() {
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">LO4 - Collaboration and Teamwork</h2>
                         <div className="mb-6">
-                            <h3 className="text-xl font-body mb-2">Products:</h3>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 1</a></li>
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 2</a></li>
+                                <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
+                                <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-xl font-body mb-2">Reflection:</h3>
-                            <p className="text-md">This is a reflection for LO4.</p>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Orienting </p>
                         </div>
                     </div>
                 </div>
@@ -118,15 +125,21 @@ function LearningOutcomesPage() {
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">LO5 - Continuous Learning and Growth</h2>
                         <div className="mb-6">
-                            <h3 className="text-xl font-body mb-2">Products:</h3>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 1</a></li>
-                                <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" className="underline">Example Link 2</a></li>
+                                <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
+                                <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
+                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">Solving a team
+                                    conflict
+                                </a></li>
+                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">My introduction
+                                    section in this
+                                    document</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h3 className="text-xl font-body mb-2">Reflection:</h3>
-                            <p className="text-md">This is a reflection for LO5.</p>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Beginning</p>
                         </div>
                     </div>
                 </div>
