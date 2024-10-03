@@ -40,18 +40,18 @@ function Assignments() {
                 </button>
             </div>
 
-            {/* Target Section - About Me */}
+            {/* Project introduction */}
             <div ref={aboutMeRef} className="px-40 py-24">
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">About Me</h3> 
-                <p className="text-lg text-darkBlack">
-                    This is the section you will scroll to.
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Introduction</h3> 
+                <p className="text-lg text-darkBlack font-body">
+                    This is the text to be added.
                 </p>
             </div>
 
             {/* Additional Documents Section */}
             <div className="px-40 py-24"> 
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">Assignment to be added</h3> 
-                <p className="text-lg text-darkBlack">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents and research</h3> 
+                <p className="text-lg text-darkBlack font-body">
                     This is the text to be added.
                 </p>
             </div>

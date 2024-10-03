@@ -18,7 +18,7 @@ function PassionProject() {
                 </h1>
 
                 <h2 className="absolute top-[60%] left-40 text-5xl text-darkPurple md:text-7xl font-bold font-header italic">
-                    project
+                    Project
                 </h2>
 
                 {/* Bubbles */}
@@ -41,18 +41,18 @@ function PassionProject() {
             </div>
 
             {/* Project introduction */}
-            <div className="px-40 py-24">
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">Title Here</h3> 
-                <p className="text-lg text-darkBlack">
-                    This is the text that will start on the left and go all the way across the screen. You can add more content here as needed to fill the space and make it look visually appealing. Adjust the content as necessary.
+            <div ref={aboutMeRef} className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Introduction</h3> 
+                <p className="text-lg text-darkBlack font-body">
+                    This is the text to be added.
                 </p>
             </div>
 
-            {/* Documents */}
+            {/* Additional Documents Section */}
             <div className="px-40 py-24"> 
-                <h3 className="text-3xl text-darkPurple font-bold mb-4">Another Title Here</h3> 
-                <p className="text-lg text-darkBlack">
-                    This is the second text section, which will also start on the left and extend across the full width of the screen. Feel free to customize this content as needed.
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents and research</h3> 
+                <p className="text-lg text-darkBlack font-body">
+                    This is the text to be added.
                 </p>
             </div>
         </div>

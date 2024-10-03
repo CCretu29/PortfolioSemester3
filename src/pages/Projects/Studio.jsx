@@ -70,36 +70,6 @@ function Studio() {
                     strong name. We agreed.
                 </p>
             </div>
-
-            {/* New Section with Title, Purple Box, and Picture */}
-            <div className="flex flex-col items-start mt-16 mx-20">
-                {/* Title for the new section on the left */}
-                <h3 className="text-3xl text-normalPurple font-bold font-header italic mb-12 ml-20">Branding Analysis</h3>
-
-                <div className="flex justify-between items-start w-full">
-                    {/* Text in purple box on the left */}
-                    <div className="w-1/3 bg-lightPurple text-darkBlack p-10 rounded-lg ml-40">
-                        <h4 className="text-xl font-bold italic font-body text-darkPurple mb-2">Branding Strategies</h4>
-                        <p className="text-lg font-body">
-                            In this section, we gathered our project research and analyzed branding strategies.
-                            We wanted to align our visual identity with the values and mission of our studio.
-                            Each team member contributed ideas for our brand colors, logo design, and overall theme.
-                        </p>
-                    </div>
-
-                    {/* Image with purple border on the right */}
-                    <div className="w-1/2 flex justify-center items-center">
-                        <img
-                            src="path_to_new_image"  // Replace with the actual image path
-                            alt="Branding Research"
-                            className="border-4 border-lightPurple rounded-lg w-[300px] h-[300px] object-cover"
-                        />
-                    </div>
-                </div>
-            </div>
-
-            {/* Add space between the new section and the footer */}
-            <div className="py-16" />
         </div>
     );
 }
