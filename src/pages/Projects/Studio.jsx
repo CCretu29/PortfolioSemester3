@@ -1,4 +1,10 @@
 import React, { useRef } from 'react';
+//doc links
+//import { Link } from 'react-router-dom';
+//import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
+//import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
+import TeamCharter from "../../assets/pdf/Studio/TeamCharter.pdf";
+//import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
 function Studio() {
     const aboutMeRef = useRef(null);
@@ -56,13 +62,13 @@ function Studio() {
             <div className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold font-header italic mb-4">Documents and research</h3>
                 <p className="text-lg text-darkBlack font-body">
-                    I wrote a part of the Team Charter:
-                    - Wrote my strengths and weaknesses
-                    - Decided with the team our core values
-                    - Wrote some of the rules
-                    - Was part of the role’s discussion
-                    - Wrote one of the goals
-                    - Decided together with my team our products
+                    I wrote a part of the <a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Team Charter</a><div className=""></div>
+                    Wrote my strengths and weaknesses
+                    Decided with the team our core values
+                    Wrote some of the rules
+                    Was part of the role’s discussion
+                    Wrote one of the goals
+                    Decided together with my team our products
                     We chose a name in a fun way. Everyone wrote ideas on my post its and
                     we chose the one we liked more. Doing this multiple times we decided
                     our name was Aurora Rise Studio. We asked feedback for the name.
