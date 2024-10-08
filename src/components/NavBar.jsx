@@ -1,17 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+//doc links
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
-const NavBar = () => {
+const NavBar = () => { //defines a functional component
+    // State to track if the dropdown is open or closed (initially is closed).
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+    // Function to toggle the dropdown open/closed.
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
     };
 
+    // Function to close the dropdown.
     const closeDropdown = () => {
         setIsDropdownOpen(false);
     };
+
 
     return (
         <nav className="bg-whiteCream text-lg font-body fixed top-0 left-0 w-full shadow-0 z-10">

@@ -9,13 +9,16 @@ import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
 
 function LearningOutcomesPage() {
+    // Create a reference to the purple box element in the DOM.
     const purpleBoxRef = useRef(null);
 
+    // Function to scroll smoothly to the referenced purple box.
     const handleScroll = (ref) => {
         if (ref.current) {
             ref.current.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
 
     return (
         <div className="w-full min-h-screen bg-whiteCream">

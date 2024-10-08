@@ -1,14 +1,18 @@
 import React, { useRef } from 'react';
+//pics links
 import selfPhoto from "../assets/photos/me.jpg";
 
 function AboutMe() {
+    // Create a reference to an element in the DOM
     const aboutMeRef = useRef(null);
 
+    // Function to scroll smoothly to the referenced element.
     const handleScroll = (ref) => {
         if (ref.current) {
             ref.current.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
 
     return (
         <div className="w-full min-h-screen bg-whiteCream">

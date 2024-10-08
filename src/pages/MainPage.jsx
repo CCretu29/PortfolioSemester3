@@ -8,14 +8,17 @@ import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
 function MainPage() {
+  // Create references to the "About Me" and "Check Work" sections in the DOM.
   const aboutMeRef = useRef(null);
   const checkWorkRef = useRef(null);
 
+  // Function to scroll smoothly to a referenced section.
   const handleScroll = (ref) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
 
   return (
     <div className="w-full min-h-screen bg-whiteCream">
