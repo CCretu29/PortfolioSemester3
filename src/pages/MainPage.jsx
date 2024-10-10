@@ -4,6 +4,7 @@ import selfPhoto from "../assets/photos/me.jpg";
 import auroraStudio from "../assets/photos/auroraProject.jpg";
 import replacePhoto from "../assets/photos/replacement_photo.jpg";
 import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
+import codePicture from "../assets/photos/codePic.png";
 //doc links
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
 
@@ -93,7 +94,7 @@ function MainPage() {
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
           >
-            My GitHub
+            My Git
           </a>
           <a
             href={ReadingGuide}
@@ -101,7 +102,7 @@ function MainPage() {
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
           >
-            My PDF
+            Reading Guide
           </a>
         </div>
       </div>
@@ -114,7 +115,7 @@ function MainPage() {
         <div className="w-full flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/3">
             <img
-              src={replacePhoto}
+              src={codePicture}
               alt="Assignments project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>

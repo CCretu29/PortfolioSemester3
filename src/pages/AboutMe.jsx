@@ -101,6 +101,35 @@ function AboutMe() {
                     with ICT practice.
                 </p>
             </div>
+
+            {/* Timeline */}
+            <div className="flex flex-col items-start px-40 py-8">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Fontys timeline</h2>
+                <p className="text-md text-darkBlack font-body">
+                    For the next student years, I already decided what path I want to take. It
+                    was hard to decide some things, easy for others but I strongly believe this
+                    is going to be the best for me.
+                </p>
+                <ul className="list-disc list-inside text-md text-darkBlack font-body">
+                    <li>Semester 1,2,3 – ICT & Media Design profile</li>
+                    <li>Semester 4 – Smart Mobile</li>
+                    <li>Semester 5 – Front-end Internship</li>
+                    <li>Semester 6 – Minor Health Innovation</li>
+                    <li>Semester 7 – Smart mobile advanced</li>
+                    <li>Semester 8 – Front end, maybe full stack development internship</li>
+                </ul>
+                <br></br>
+                <p className="text-md text-darkBlack font-body">
+                    I chose Smart Mobile for two semesters because in these three semesters
+                    I concluded that I am more into programming then design and user
+                    research. I also did my research about all the specializations and building
+                    web applications sounds very interesting and challenging for me. I know I
+                    want to choose the Health Innovation minor since I heard about it in
+                    semester two because of my passion for both medical and IT fields, and I
+                    think the choices for internships already speak from themselves.
+                </p>
+            </div>
+
         </div>
     );
 }
