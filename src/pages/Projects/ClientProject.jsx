@@ -1,4 +1,7 @@
 import React, { useRef } from 'react';
+// doc links
+import AiResearchDoc from "../../assets/pdf/Client/AIResearchDoc.pdf";
+import UserResearchQuestions from "../../assets/pdf/Client/UserResearchQuestions.pdf";
 
 function ClientProject() {
     const aboutMeRef = useRef(null);
@@ -44,7 +47,10 @@ function ClientProject() {
             <div ref={aboutMeRef} className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Introduction</h3> 
                 <p className="text-lg text-darkBlack font-body">
-                    This is the text to be added.
+                    The second project from this semester is a real client project. My team's client is Livewall.
+                    The project that we are doing for this client is making use of the generative AI to come up with an interactive, interesting way to tell stories to children.
+                    The stories in case are told in the Fairytale Forest in the park Efteling.
+                    We had a meeting with the client in witch he said we have freedom in our choices as long as they are well augmented. 
                 </p>
             </div>
 
@@ -52,9 +58,24 @@ function ClientProject() {
             <div className="px-40 py-24"> 
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents and research</h3> 
                 <p className="text-lg text-darkBlack font-body">
-                    This is the text to be added.
+                    Our first steps were to do some general research before the client answered us. We are using the CMD research method and this the first phase, library research.
+                      My part was to research about text and audio AI generator. I looked through a lot of websites and found useful answers.
+                      I discovered a lot of free AI that we could use and compared witch one would be better to use, I learned a bit about how we would use them as well.
+                      My findings and also the reference can be found in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document.</a>
                 </p>
             </div>
+
+            {/* User research */}
+            <div className="px-40 py-24"> 
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">User research</h3> 
+                <p className="text-lg text-darkBlack font-body">
+                    Together, me and my team decided that our target audience will be children between six and ten years old.
+                     To prepare for the the target audience user research each one came up with five questions that we can ask the children.
+                     I wrote this questions based on my experience as a child with stories and information found from my peers research on this subject.
+                     Here is the  <a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document.</a> with all of our questions.
+                </p>
+            </div>
+
         </div>
     );
 }
