@@ -166,10 +166,10 @@ function PortfolioPage() {
                     Tailwind just for this side of front-end was very easy and interesting
                     to learn. Now that I know how to build a website with this, I plan to
                     investigate more interesting challenges.
-                    I got to practice with a little bit of JavaScript functions and 
+                    I got to practice with a little bit of JavaScript functions and
                     I learned some basic things as importing pictures, documents and links.
                     I also created a readme file where I explain how to do the set up and install React and Tailwind,
-                    and I also commented my code in a professional way. 
+                    and I also commented my code in a professional way.
                 </p>
                 <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is my           <a
                     href="https://git.fhict.nl/I523382/my-work-semester-3-orange"
@@ -178,6 +178,36 @@ function PortfolioPage() {
                     className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
                 >
                     Git
+                </a>. In here you can find the code for my portfolio, and also other programming
+                    assignments.</h4>
+            </div>
+
+            {/* Deploy */}
+            <div className="px-40 py-12">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Deploy my portfolio</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    I tried to put my portfolio on the Hera server but that did not work for some reason.
+                    I went to the ISSD to ask for help, and the guys there told me it will not work because Hera does not know how to read a React project.
+                    I had to search another solution and I found out I can deploy it with GitHub Pages. I created a personal GitHub account and put my portfolio in there in a repository.
+                    I followed instructions that I had found online.
+                    To set up GitHub Pages, I went to the "Settings" tab in my repository and selected "Pages" from the menu on the left.
+                    In the "Source" section, I chose the branch I wanted to publish from "typically `main`".
+                    Since I didn't have a build folder, I left the selection as "/ root" and clicked "Save" to apply the settings.
+                    Additionally, I made sure to run `npm run build` to generate the build files, and I included the script in my `package.json` for easier deployment.
+                    GitHub then started publishing the site, which took a few minutes. Once the process was complete, I received a link, and I could access my live site there.
+                    Something went wrong and the only thing that I could see on the website was my readme file. I searched online why and also asked the AI but could not find an answer.
+                    Then I decided to use a website that a colleague told me about with is Netlify.
+                    The instructions were on the website and it was very easy just to upload my portfolio there.
+                    I connected with my GitHub account and took my portfolio from there, put in in the Netlify website.
+                    On the page it was generated a link that I can use to access my portfolio website.
+
+                </p>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is my <a
+                    href="https://git.fhict.nl/I523382/my-work-semester-3-orange"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >Git
                 </a>. In here you can find the code for my portfolio, and also other programming
                     assignments.</h4>
             </div>
