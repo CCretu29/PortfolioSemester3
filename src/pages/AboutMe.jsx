@@ -130,6 +130,25 @@ function AboutMe() {
                 </p>
             </div>
 
+            {/* Preparing for internship */}
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Preparing for internship</h2>
+                <p className="text-md text-darkBlack font-body">
+                    When I heard that Career Day is close, I asked a teacher if I can also ask about internships this early, since I already know what specialization I want to chose.
+                    The teacher said as early as better so I started preparing. First, because I would like to have a front end developer internship, I prepared a personal GitHub.
+                    I chose GitHub in stead of GitLab because I know is more often used in companies. I put there some of my best work from semester two and three and created a readme for the clients to see what I do in those projects.
+                    This GitHub link I am going to send to the companies where I apply, together with my CV.
+                </p>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">          <a
+                    href="https://github.com/CCretu29"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    
+                </a>This is my personal Git.</h4>
+            </div>
+
         </div>
     );
 }

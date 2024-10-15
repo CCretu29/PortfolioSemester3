@@ -7,6 +7,7 @@ import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
 import codePicture from "../assets/photos/codePic.png";
 //doc links
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import { Link } from 'react-router-dom'; // Import Link
 
 function MainPage() {
   // Create references to the "About Me" and "Check Work" sections in the DOM.
@@ -19,7 +20,6 @@ function MainPage() {
       ref.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
 
   return (
     <div className="w-full min-h-screen bg-whiteCream">
@@ -125,12 +125,12 @@ function MainPage() {
               Here I will put some personal assignments that have nothing to do with the group projects. This assignments are here to add more proof for my learning outcomes.
             </p>
             {/* Project Button */}
-            <a
-              href="/projects/assignments"
+            <Link
+              to="/projects/assignments"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -142,12 +142,12 @@ function MainPage() {
               This is my portfolio page, where I explain my creating process, iterations and coding.
             </p>
             {/* Project Button */}
-            <a
-              href="/projects/portfolio"
+            <Link
+              to="/projects/portfolio"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project
-            </a>
+            </Link>
           </div>
           <div className="md:w-1/3 order-1 md:order-2">
             <img
@@ -162,43 +162,43 @@ function MainPage() {
           <div className="md:w-1/3">
             <img
               src={auroraStudio}
-              alt="Aurora Studio"
+              alt="Aurora Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>
           <div className="md:w-2/3 px-16">
-            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Studio Project</h2>
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Studio</h2>
             <p className="text-lg text-darkBlack font-body">
-              This project is about creating our own studio as a group. Within this project, you can find professional skills, design, development, and media production.
+              This project I did for the studio, we made a website for a game.
             </p>
             {/* Project Button */}
-            <a
-              href="/projects/studio"
+            <Link
+              to="/projects/studio"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Project 4 */}
         <div className="w-full flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-2/3 px-16 order-2 md:order-1">
-            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Client project</h2>
+            <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Client Project</h2>
             <p className="text-lg text-darkBlack font-body">
-              This is the client project. To be added.
+              This is my Client Project, I made a website for a company.
             </p>
             {/* Project Button */}
-            <a
-              href="/projects/client-project"
+            <Link
+              to="/projects/client-project"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project
-            </a>
+            </Link>
           </div>
           <div className="md:w-1/3 order-1 md:order-2">
             <img
               src={replacePhoto}
-              alt="Client"
+              alt="Client Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>
         </div>
@@ -207,27 +207,24 @@ function MainPage() {
         <div className="w-full flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/3">
             <img
-              src={replacePhoto}
-              alt="Passion project"
+              src={auroraStudio}
+              alt="Passion Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>
           <div className="md:w-2/3 px-16">
             <h2 className="text-2xl font-bold italic font-header text-normalPurple mb-6">Passion Project</h2>
             <p className="text-lg text-darkBlack font-body">
-              This is the Passion project. To be added.
+              This project is about something I am passionate about.
             </p>
             {/* Project Button */}
-            <a
-              href="/projects/passion-project"
+            <Link
+              to="/projects/passion-project"
               className="mt-4 inline-block px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
             >
               Go to Project
-            </a>
+            </Link>
           </div>
         </div>
-
-
-
       </div>
     </div>
   );
