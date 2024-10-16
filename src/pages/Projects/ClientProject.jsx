@@ -72,7 +72,7 @@ function ClientProject() {
                     Together, me and my team decided that our target audience will be children between six and ten years old.
                     To prepare for the the target audience user research each one came up with five questions that we can ask the children.
                     I wrote this questions based on my experience as a child with stories and information found from my peers research on this subject.
-                    Here is the  <a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document.</a> with all of our questions.
+                    Here is the  <a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document</a> with all of our questions.
                 </p>
             </div>
 
