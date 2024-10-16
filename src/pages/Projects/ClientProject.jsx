@@ -57,11 +57,18 @@ function ClientProject() {
             {/* Additional Documents Section */}
             <div className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents and research</h3>
+                <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">AI research</h4>
                 <p className="text-lg text-darkBlack font-body">
                     Our first steps were to do some general research before the client answered us. We are using the CMD research method and this the first phase, library research.
                     My part was to research about text and audio AI generator. I looked through a lot of websites and found useful answers.
                     I discovered a lot of free AI that we could use and compared witch one would be better to use, I learned a bit about how we would use them as well.
-                    My findings and also the reference can be found in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document.</a>
+                    My findings and also the reference can be found in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document</a>.
+                </p>
+                <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Project plan</h4>
+                <p className="text-lg text-darkBlack font-body">
+                   All team membes worked at the project plan. My part from the project plan, together with a colleague was to write the scope, meaning,
+                   the deliverables, non deliverables and the Moscow chart. We discussed with the team members and decided together what we want to deliver and not.
+                    in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document    </a>.
                 </p>
             </div>
 
