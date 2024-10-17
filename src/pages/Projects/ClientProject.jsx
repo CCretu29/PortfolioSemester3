@@ -66,8 +66,8 @@ function ClientProject() {
                 </p>
                 <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Project plan</h4>
                 <p className="text-lg text-darkBlack font-body">
-                   All team membes worked at the project plan. My part from the project plan, together with a colleague was to write the scope, meaning,
-                   the deliverables, non deliverables and the Moscow chart. We discussed with the team members and decided together what we want to deliver and not.
+                    All team membes worked at the project plan. My part from the project plan, together with a colleague was to write the scope, meaning,
+                    the deliverables, non deliverables and the Moscow chart. We discussed with the team members and decided together what we want to deliver and not.
                     in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document    </a>.
                 </p>
             </div>

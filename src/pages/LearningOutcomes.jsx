@@ -5,6 +5,7 @@ import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
 import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
 import TeamCharter from "../assets/pdf/Studio/TeamCharter.pdf";
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+//pics links
 
 
 
@@ -52,8 +53,8 @@ function LearningOutcomesPage() {
 
             {/* Centered Purple Boxes */}
             <div ref={purpleBoxRef} className="space-y-24">
-                 {/* Box */}
-                 <div className="flex justify-center items-center min-h-[40vh] mt-24">
+                {/* Box */}
+                <div className="flex justify-center items-center min-h-[40vh] mt-24">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">Reading Guide versions</h2>
                         <div className="mb-6">
@@ -75,7 +76,7 @@ function LearningOutcomesPage() {
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                            <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
+                                <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                             </ul>
                         </div>
@@ -110,7 +111,7 @@ function LearningOutcomesPage() {
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                            <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
+                                <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                             </ul>
                         </div>
