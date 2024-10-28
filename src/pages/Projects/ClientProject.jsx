@@ -1,7 +1,10 @@
 import React, { useRef } from 'react';
 // doc links
 import AiResearchDoc from "../../assets/pdf/Client/AIResearchDoc.pdf";
+import ProjectPlan from "../../assets/pdf/Client/projectPlanAI.pdf";
 import UserResearchQuestions from "../../assets/pdf/Client/UserResearchQuestions.pdf";
+import InterviewOne from "../../assets/pdf/Client/InterviewOne.pdf";
+import InterviewTwo from "../../assets/pdf/Client/InterviewTwo.pdf";
 
 function ClientProject() {
     const aboutMeRef = useRef(null);
@@ -59,7 +62,7 @@ function ClientProject() {
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents and research</h3>
                 <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">AI research</h4>
                 <p className="text-lg text-darkBlack font-body">
-                    Our first steps were to do some general research before the client answered us. We are using the CMD research method and this the first phase, library research.
+                    Our first steps were to do some general research before the client answered us. We are using the CMD research method and this is the first phase, library research.
                     My part was to research about text and audio AI generator. I looked through a lot of websites and found useful answers.
                     I discovered a lot of free AI that we could use and compared witch one would be better to use, I learned a bit about how we would use them as well.
                     My findings and also the reference can be found in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document</a>.
@@ -68,7 +71,7 @@ function ClientProject() {
                 <p className="text-lg text-darkBlack font-body">
                     All team membes worked at the project plan. My part from the project plan, together with a colleague was to write the scope, meaning,
                     the deliverables, non deliverables and the Moscow chart. We discussed with the team members and decided together what we want to deliver and not.
-                    in this <a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document    </a>.
+                    This is the <a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Project plan</a>.
                 </p>
             </div>
 
@@ -87,7 +90,16 @@ function ClientProject() {
             <div className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Target audience</h3>
                 <p className="text-lg text-darkBlack font-body">
-                    To be added
+                    After we decided our target audience we decided that we have to interview some children. First we tried to reach some schools but we were refused many times.
+                    We had a hard time deciding if we also have to interview the parents, or just the parents to be there with the kids when we interviewed them.
+                    I asked my peers if I should also take an interview with my landlord children and the first decision was yes. I asked the landlord to bring the kids to my house and took the interview.
+                    The little boy new english very well, and the landlord translated the little girl's answers for me. I noted the answers on my phone in Notes and then transcribed everything in documents.
+                    It was an amazing experience to talk with the kids about the stories and they were adorable. I really enjoyed having a target audience as kids.
+                    Here are the interview documents: 
+                    <br></br>
+                    <a href={InterviewOne} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Interview with the girl</a>
+                   <br></br>
+                    <a href={InterviewTwo} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Interview with the boy</a>
                 </p>
             </div>
 

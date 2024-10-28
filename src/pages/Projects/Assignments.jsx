@@ -98,6 +98,11 @@ function Assignments() {
                     I added event listeners to the buttons, one for starting a combat and another for loading three randomly selected Pokémon cards.
                     As the battle progresses, the app assesses the attacking prowess of the visible Pokémon to determine the victor or if a tie occurs. In order to provide an interactive Pokémon experience, this project integrates APIs, manipulates HTML dynamically, and employs fundamental gaming principles.
                 </p>
+                <p className="text-lg text-darkBlack font-body">
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Learning about GIT</h4>
+                    I attended a GIT workshop where I learned how to use multiple GIT commands, I learned what they mean and also how to use GIT in a team.
+                    I learned how to create a conflict and solve it working with another peers at a project. This workshop was very helpful and interesting.
+                </p>
             </div>
 
             {/* Design and User research assignments */}
