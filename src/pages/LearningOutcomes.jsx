@@ -5,6 +5,11 @@ import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
 import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
 import TeamCharter from "../assets/pdf/Studio/TeamCharter.pdf";
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import InterviewOne from "../../src/assets/pdf/Client/InterviewOne.pdf";
+import InterviewTwo from "../../src/assets/pdf/Client/InterviewTwo.pdf";   
+// import UserResearchQuestions from "../../assets/pdf/Client/UserResearchQuestions.pdf";
+import AiResearchDoc from "../../src/assets/pdf/Client/AIResearchDoc.pdf";
+import ProjectPlan from "../../src/assets/pdf/Client/projectPlanAI.pdf"; 
 //pics links
 
 
@@ -62,8 +67,6 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version1</a></li>
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version3</a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version4</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,10 +81,16 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
+                                <li><a href={InterviewOne} target="_blank" rel="noopener noreferrer" className="underline">Interview with the girl</a></li>
+                                <li><a href={InterviewTwo} target="_blank" rel="noopener noreferrer" className="underline">Interview with the boy</a></li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
+                            <p className="text-md">Orienting</p>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
                             <p className="text-md">Orienting</p>
                         </div>
                     </div>
@@ -131,6 +140,8 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
                                 <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
+                                <li><a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="underline">AiResearchDoc</a></li>
+                                <li><a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan</a></li>
                             </ul>
                         </div>
                         <div>
