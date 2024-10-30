@@ -103,6 +103,11 @@ function Assignments() {
                     I attended a GIT workshop where I learned how to use multiple GIT commands, I learned what they mean and also how to use GIT in a team.
                     I learned how to create a conflict and solve it working with another peers at a project. This workshop was very helpful and interesting.
                 </p>
+                <p className="text-lg text-darkBlack font-body">
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">JavaScript refreshing</h4>
+                    I attended a refreshing JavaScript workshop where I remembered how to create a vanilla counter, and I refreshed my memory about elements, variables and functions.
+                    It was interesting and nice to remember some basic stuff. I am aware that without the base, more complex coding is impossible, so a refresh from time to time is needed. 
+                </p>
             </div>
 
             {/* Design and User research assignments */}
