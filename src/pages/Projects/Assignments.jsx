@@ -1,4 +1,13 @@
 import React, { useRef } from 'react';
+// pic links
+import GitLearn from "../../assets/photos/gitLearn.jpg"; 
+import LearnGit from "../../assets/photos/learnGit.jpg"
+// video links
+import Counting from "../../assets/videos/counting.mp4"
+import Flying from "../../assets/videos/flyingGame.mp4"
+import Counter from "../../assets/videos/JScounter.mp4"
+import Movie from "../../assets/videos/movie.mp4"
+import Pokemon from "../../assets/videos/pokemon.mp4"
 
 function Assignments() {
     const aboutMeRef = useRef(null);
@@ -71,6 +80,13 @@ function Assignments() {
                     Also, I made sure the text color doesn't become unreadable by alternating between black and white according on whether the count is odd or even.
                     To make the counter dynamic and visually appealing, I called the growing function every second using `setInterval`.
                 </p>
+                <div className="flex justify-center mt-4">
+                <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
+                            <source src={Counter} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Flying object game</h4>
                     For this assignment, I used JavaScript to create a jumping game in which a flyer character hops to avoid obstacles and keeps score.
@@ -80,6 +96,13 @@ function Assignments() {
                     The flyer's collision detection system determines whether it has struck an obstacle, ending the game and showing the score.
                     To allow the player to jump when they press the space key, I configured an event listener for that key.
                 </p>
+                               <div className="flex justify-center mt-4">
+                <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
+                            <source src={Flying} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Movie trailer</h4>
                     For this assignment, I made a HTML and JavaScript webpage with a main page and a slideshow page that was devoted to the horror film "IT."
@@ -89,6 +112,13 @@ function Assignments() {
                     I included audio controls with Font Awesome symbols so that viewers could pause, resume, and end a background music track while navigating the slideshow.
                     This project creates an interesting film display by combining JavaScript functionality, CSS styling, and HTML structure.
                 </p>
+                <div className="flex justify-center mt-4">
+                <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
+                            <source src={Movie} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Pokemon</h4>
                     For this challenge, I created a web application that shows Pokémon cards and lets users combat them using the Pokémon API.
@@ -98,17 +128,33 @@ function Assignments() {
                     I added event listeners to the buttons, one for starting a combat and another for loading three randomly selected Pokémon cards.
                     As the battle progresses, the app assesses the attacking prowess of the visible Pokémon to determine the victor or if a tie occurs. In order to provide an interactive Pokémon experience, this project integrates APIs, manipulates HTML dynamically, and employs fundamental gaming principles.
                 </p>
+                <div className="flex justify-center mt-4">
+                <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
+                            <source src={Pokemon} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Learning about GIT</h4>
                     I attended a GIT workshop where I learned how to use multiple GIT commands, I learned what they mean and also how to use GIT in a team.
                     I learned how to create a conflict and solve it working with another peers at a project. This workshop was very helpful and interesting.
                 </p>
+                <div className="flex justify-center mt-4">
+                        <img src={GitLearn} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                        <img src={LearnGit} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                    </div>
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">JavaScript refreshing</h4>
                     I attended a refreshing JavaScript workshop where I remembered how to create a vanilla counter, and I refreshed my memory about elements, variables and functions.
-                    It was interesting and nice to remember some basic stuff. I am aware that without the base, more complex coding is impossible, so a refresh from time to time is needed. 
+                    It was interesting and nice to remember some basic stuff. I am aware that without the base, more complex coding is so a refresh from time to time is needed.
                 </p>
             </div>
+                           <div className="flex justify-center mt-4">
+                <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
+                            <source src={Counting} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
 
             {/* Design and User research assignments */}
             <div className="px-40 py-12">
