@@ -195,7 +195,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation in our team, I went to the Dutch Design week and learned and saw a lot of interesting things and I am every day growing in knowledge.
+                            <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation in our team, I went to the Dutch Design week and learned and saw a lot of interesting things, I am every day growing in knowledge and I already started to prepare for my Front-end developer internship.
                             </p>
                         </div>
                     </div>
