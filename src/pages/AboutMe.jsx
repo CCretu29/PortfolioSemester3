@@ -181,6 +181,14 @@ function AboutMe() {
                 )}
             </div>
 
+ {/* Career day*/}
+ <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Career day</h2>
+                <p className="text-md text-darkBlack font-body">
+                    I will attend. To be added. 
+                </p>
+            </div>
+
         </div>
     );
 }
