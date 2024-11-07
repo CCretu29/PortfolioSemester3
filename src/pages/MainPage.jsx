@@ -8,7 +8,7 @@ import codePicture from "../assets/photos/codePic.png";
 import clientProject from "../../src/assets/photos/clientMain.jpg"
 
 //doc links
-import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
 import { Link } from 'react-router-dom'; // Import Link
 
 function MainPage() {
@@ -99,7 +99,7 @@ function MainPage() {
             My Git
           </a>
           <a
-            href={ReadingGuide}
+            href={ReadingGuideTwo}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"

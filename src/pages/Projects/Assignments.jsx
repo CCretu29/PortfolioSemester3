@@ -3,7 +3,6 @@ import React, { useRef } from 'react';
 import GitLearn from "../../assets/photos/gitLearn.jpg";
 import LearnGit from "../../assets/photos/learnGit.jpg"
 import AppSite from "../../assets/photos/SIteApp.png"
-
 // video links
 import Counting from "../../assets/videos/counting.mp4"
 import Flying from "../../assets/videos/flyingGame.mp4"
@@ -156,8 +155,16 @@ function Assignments() {
                 </p>
                 <div className="flex justify-center mt-4">
                     <img src={AppSite} alt="AppSite" className="w-4/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
-
                 </div>
+
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is my           <a
+                    href="https://github.com/CCretu29/Progressive-web-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    PWA project
+                </a>.</h4>
 
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
