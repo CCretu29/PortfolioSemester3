@@ -169,7 +169,7 @@ function AboutMe() {
                         onClick={togglePhoto}
                         className="font-body font-bold text-normalPurple cursor-pointer hover:text-lightBlue"
                     >
-                        Photos from the Dutch design week.
+                        Photo from the Dutch design week.
                     </span>
 
                 </p>
