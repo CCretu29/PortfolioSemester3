@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 // pics links
 import selfPhoto from "../assets/photos/me.jpg";
+import dutchDesign from "../assets/photos/dutchDesign.png";
 
 function AboutMe() {
     const aboutMeRef = useRef(null);
@@ -140,7 +141,7 @@ function AboutMe() {
                     When I heard that Career Day is close, I asked a teacher if I can also ask about internships this early, since I already know what specialization I want to chose.
                     The teacher said as early as better so I started preparing. First, because I would like to have a front end developer internship, I prepared a personal GitHub.
                     I chose GitHub in stead of GitLab because I know is more often used in companies. I put there some of my best work from semester two and three and created a readme for the clients to see what I do in those projects.
-                    This GitHub link I am going to send to the companies where I apply, together with my CV.
+                    This GitHub link I am going to send to the companies where I apply, together with my Linkedin profile where I have put all my previous experience and projects.
                 </p>
                 <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">
                     <a
@@ -174,20 +175,14 @@ function AboutMe() {
                 </p>
                 {showPhoto && (
                     <img
-                        src={selfPhoto}
+                        src={dutchDesign}
                         alt="Dutch Design Week"
                         className="mt-4 w-[500px] h-auto border-4 border-lightPurple rounded-lg"
                     />
                 )}
             </div>
 
- {/* Career day*/}
- <div className="flex flex-col items-start px-40 py-16">
-                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Career day</h2>
-                <p className="text-md text-darkBlack font-body">
-                    I will attend. To be added. 
-                </p>
-            </div>
+
 
         </div>
     );
