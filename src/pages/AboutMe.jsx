@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 // pics links
 import selfPhoto from "../assets/photos/me.jpg";
-// import dutchDesign from "../assets/photos/dutchDesign.png";
+import designWeek from "../assets/photos/designWeek.jpg";
 
 function AboutMe() {
     const aboutMeRef = useRef(null);
@@ -13,9 +13,9 @@ function AboutMe() {
         }
     };
 
-    // const togglePhoto = () => {
-    //     setShowPhoto(!showPhoto); // Toggle the photo visibility
-    // };
+    const togglePhoto = () => {
+        setShowPhoto(!showPhoto); // Toggle the photo visibility
+    };
 
 
     return (
@@ -155,7 +155,32 @@ function AboutMe() {
                 </h4>
             </div>
 
-           
+            Dutch design week
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Dutch design week</h2>
+                <p className="text-md text-darkBlack font-body">
+                    In the October holiday I went to Dutch design week with a friend. Going to Dutch Design Week was really interesting and gave me a lot of new ideas.
+                    I got to see some unique design projects and new technology that I had not thought about before.
+                    Seeing how designers are using technology in creative ways and learning about innovations in sustainable design gave me a better understanding of where design is heading.
+                    Overall, it was inspiring to see how the industry is moving forward and to learn from the new ideas that were shared there.
+                    It made me discover that I also like looking at art, but I don’t feel the need to also understand it, or to feel it, it is nice just to look at it and appreciate other people’s work.
+                    <br></br>
+                    <span
+                        onClick={togglePhoto}
+                        className="font-body font-bold text-normalPurple cursor-pointer hover:text-lightBlue"
+                    >
+                        Photo from the Dutch design week.
+                    </span>
+
+                </p>
+                {showPhoto && (
+                    <img
+                        src={designWeek}
+                        alt="Dutch Design Week"
+                        className="mt-4 w-[500px] h-auto border-4 border-lightPurple rounded-lg"
+                    />
+                )}
+            </div>
 
 
 
