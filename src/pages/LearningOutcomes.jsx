@@ -5,6 +5,15 @@ import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
 import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
 import TeamCharter from "../assets/pdf/Studio/TeamCharter.pdf";
 import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import InterviewOne from "../../src/assets/pdf/Client/InterviewOne.pdf";
+import InterviewTwo from "../../src/assets/pdf/Client/InterviewTwo.pdf";   
+import AiResearchDoc from "../../src/assets/pdf/Client/AIResearchDoc.pdf";
+import ProjectPlan from "../../src/assets/pdf/Client/projectPlanAI.pdf"; 
+import DesignDocClient from "../../src/assets/pdf/Client/DesignDocumentClientProject.pdf"; 
+import UserDoc from "../../src/assets/pdf/Client/UserResearch&TargetAudience.pdf"; 
+import UserResearchQuestions from "../../src/assets/pdf/Client/UserResearchQuestions.pdf";
+import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
+//pics links
 
 
 
@@ -52,17 +61,15 @@ function LearningOutcomesPage() {
 
             {/* Centered Purple Boxes */}
             <div ref={purpleBoxRef} className="space-y-24">
-                 {/* Box */}
-                 <div className="flex justify-center items-center min-h-[40vh] mt-24">
+                {/* Box */}
+                <div className="flex justify-center items-center min-h-[40vh] mt-24">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-header italic mb-4">Reading Guide versions</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version1</a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version3</a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version4</a></li>
+                                <li><a href={ReadingGuideTwo} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
                             </ul>
                         </div>
                     </div>
@@ -75,13 +82,22 @@ function LearningOutcomesPage() {
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                            <li><Link to="/projects/portfolio" className="underline">Portfolio</Link></li>
+                                <li><Link to="https://portfoliosemester3.netlify.app/" className="underline">Portfolio page</Link></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
+                                <li><a href={InterviewOne} target="_blank" rel="noopener noreferrer" className="underline">Interview with the girl</a></li>
+                                <li><a href={InterviewTwo} target="_blank" rel="noopener noreferrer" className="underline">Interview with the boy</a></li>
+                                <li><a href={UserDoc} target="_blank" rel="noopener noreferrer" className="underline">User research & Target audience</a></li>
+                                <li><a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="underline">User research questions</a></li>
                             </ul>
                         </div>
                         <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
+                            <p className="text-md mb-2">Beginning</p>
+                        </div>
+                        <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md">Orienting</p>
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of target research, learned what a Customer journey is and designed by the needs of the users.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -94,11 +110,17 @@ function LearningOutcomesPage() {
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
                                 <li><a href="https://git.fhict.nl/I523382/my-work-semester-3-orange" target="_blank" rel="noopener noreferrer" className="underline">MyGit</a></li>
+                                <li><a href="https://github.com/CCretu29/Progressive-web-app" target="_blank" rel="noopener noreferrer" className="underline">PWA</a></li>
                             </ul>
                         </div>
                         <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
+                            <p className="text-md mb-2">Beginning</p>
+                        </div>
+                        <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md">Orienting </p>
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of coding tasks, learned about Progressive web app, remembered some basic JavaScript, deployed my portfolio and learned a lot more about GIT.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -110,13 +132,19 @@ function LearningOutcomesPage() {
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                            <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
+                                <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
+                                <li><a href={DesignDocClient} target="_blank" rel="noopener noreferrer" className="underline">Design Document Client Project</a></li>
                             </ul>
                         </div>
                         <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
+                            <p className="text-md mb-2">Beginning</p>
+                        </div>
+                        <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md">Beginning</p>
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed a design based on the users needs, respected design principle and brainstormed design concepts.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -130,11 +158,18 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
                                 <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
+                                <li><a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="underline">AiResearchDoc</a></li>
+                                <li><a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan</a></li>
                             </ul>
                         </div>
                         <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
+                            <p className="text-md mb-2">Beginning</p>
+                        </div>
+                        <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md">Orienting </p>
+                            <p className="text-md mb-2">I believe that I proved my grade because of my AI research, the target audience research and also because I am using the C.M.D. methods of research for the Client project.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -149,16 +184,19 @@ function LearningOutcomesPage() {
                                 <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
                                 <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">Solving a team
-                                    conflict
+                                    conflict (This is the Reading guide first version)
                                 </a></li>
-                                <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">My introduction
-                                    section in this
-                                    document</a></li>
+                                <li><Link to="https://portfoliosemester3.netlify.app/about/" className="underline">The About me page</Link></li>
                             </ul>
                         </div>
                         <div>
+                            <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
+                            <p className="text-md mb-2">Beginning</p>
+                        </div>
+                        <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md">Beginning</p>
+                            <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation in our team, I went to the Dutch Design week and learned and saw a lot of interesting things, I am every day growing in knowledge and I already started to prepare for my Front-end developer internship.
+                            </p>
                         </div>
                     </div>
                 </div>

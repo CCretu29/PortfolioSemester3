@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 //doc links
-import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
 
 const NavBar = () => { //defines a functional component
     // State to track if the dropdown is open or closed (initially is closed).
@@ -66,8 +66,8 @@ const NavBar = () => { //defines a functional component
                         <Link to="/learning-outcomes" className="text-darkBlack hover:underline">Learning Outcomes</Link>
                     </li>
                     <li className="nav-item">
-                        <a  href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
-                            ReadGuide
+                        <a  href={ReadingGuideTwo} target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
+                            ReadingGuide
                         </a>
                     </li>
                 </ul>

@@ -5,8 +5,10 @@ import auroraStudio from "../assets/photos/auroraProject.jpg";
 import replacePhoto from "../assets/photos/replacement_photo.jpg";
 import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
 import codePicture from "../assets/photos/codePic.png";
+import clientProject from "../../src/assets/photos/clientMain.jpg"
+
 //doc links
-import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
 import { Link } from 'react-router-dom'; // Import Link
 
 function MainPage() {
@@ -97,7 +99,7 @@ function MainPage() {
             My Git
           </a>
           <a
-            href={ReadingGuide}
+            href={ReadingGuideTwo}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-2 bg-lightPurple font-body text-darkBlack text-xl rounded-full hover:bg-normalPurple hover:text-whiteCream transition duration-300"
@@ -197,7 +199,7 @@ function MainPage() {
           </div>
           <div className="md:w-1/3 order-1 md:order-2">
             <img
-              src={replacePhoto}
+              src={clientProject}
               alt="Client Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>
@@ -207,7 +209,7 @@ function MainPage() {
         <div className="w-full flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/3">
             <img
-              src={auroraStudio}
+              src={replacePhoto}
               alt="Passion Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>

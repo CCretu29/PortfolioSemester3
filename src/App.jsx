@@ -8,14 +8,16 @@ import PortfolioPage from './pages/Projects/PortfolioPage';
 import Studio from './pages/Projects/Studio';
 import ClientProject from './pages/Projects/ClientProject';
 import PassionProject from './pages/Projects/PassionProject';
-import NavBar from './components/NavBar'; 
-import Footer from './components/Footer'; 
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import ScrollToTop from './ScrollToTop';
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div>
-      <NavBar />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

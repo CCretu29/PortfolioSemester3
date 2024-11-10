@@ -1,16 +1,20 @@
-import React, { useRef } from 'react';
-//pics links
+import React, { useRef, useState } from 'react';
+// pics links
 import selfPhoto from "../assets/photos/me.jpg";
+import designWeek from "../assets/photos/designWeek.jpg";
 
 function AboutMe() {
-    // Create a reference to an element in the DOM
     const aboutMeRef = useRef(null);
+    const [showPhoto, setShowPhoto] = useState(false); // Initialize showPhoto state
 
-    // Function to scroll smoothly to the referenced element.
     const handleScroll = (ref) => {
         if (ref.current) {
             ref.current.scrollIntoView({ behavior: 'smooth' });
         }
+    };
+
+    const togglePhoto = () => {
+        setShowPhoto(!showPhoto); // Toggle the photo visibility
     };
 
 
@@ -137,17 +141,48 @@ function AboutMe() {
                     When I heard that Career Day is close, I asked a teacher if I can also ask about internships this early, since I already know what specialization I want to chose.
                     The teacher said as early as better so I started preparing. First, because I would like to have a front end developer internship, I prepared a personal GitHub.
                     I chose GitHub in stead of GitLab because I know is more often used in companies. I put there some of my best work from semester two and three and created a readme for the clients to see what I do in those projects.
-                    This GitHub link I am going to send to the companies where I apply, together with my CV.
+                    This GitHub link I am going to send to the companies where I apply, together with my Linkedin profile where I have put all my previous experience and projects.
                 </p>
-                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">          <a
-                    href="https://github.com/CCretu29"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
-                >
-                    
-                </a>This is my personal Git.</h4>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">
+                    <a
+                        href="https://github.com/CCretu29"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue"
+                    >
+                        This is my personal Git.
+                    </a>
+                </h4>
             </div>
+
+            Dutch design week
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Dutch design week</h2>
+                <p className="text-md text-darkBlack font-body">
+                    In the October holiday I went to Dutch design week with a friend. Going to Dutch Design Week was really interesting and gave me a lot of new ideas.
+                    I got to see some unique design projects and new technology that I had not thought about before.
+                    Seeing how designers are using technology in creative ways and learning about innovations in sustainable design gave me a better understanding of where design is heading.
+                    Overall, it was inspiring to see how the industry is moving forward and to learn from the new ideas that were shared there.
+                    It made me discover that I also like looking at art, but I don’t feel the need to also understand it, or to feel it, it is nice just to look at it and appreciate other people’s work.
+                    <br></br>
+                    <span
+                        onClick={togglePhoto}
+                        className="font-body font-bold text-normalPurple cursor-pointer hover:text-lightBlue"
+                    >
+                        Photo from the Dutch design week.
+                    </span>
+
+                </p>
+                {showPhoto && (
+                    <img
+                        src={designWeek}
+                        alt="Dutch Design Week"
+                        className="mt-4 w-[500px] h-auto border-4 border-lightPurple rounded-lg"
+                    />
+                )}
+            </div>
+
+
 
         </div>
     );
