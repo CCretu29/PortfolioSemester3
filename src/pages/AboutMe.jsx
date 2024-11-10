@@ -155,7 +155,7 @@ function AboutMe() {
                 </h4>
             </div>
 
-            Dutch design week
+
             <div className="flex flex-col items-start px-40 py-16">
                 <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Dutch design week</h2>
                 <p className="text-md text-darkBlack font-body">
