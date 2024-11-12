@@ -101,7 +101,7 @@ function LearningOutcomesPage() {
                         </div>
                     </div>
                 </div>
-test git
+
                 {/* Second Box */}
                 <div className="flex justify-center items-center min-h-[40vh]">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
