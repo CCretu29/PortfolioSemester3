@@ -133,7 +133,7 @@ function AboutMe() {
                     think the choices for internships already speak from themselves.
                 </p>
             </div>
-
+testing
             {/* Preparing for internship */}
             <div className="flex flex-col items-start px-40 py-16">
                 <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Preparing for internship</h2>
