@@ -20,7 +20,7 @@ function Assignments() {
     };
 
     return (
-        <div className="w-full min-h-screen bg-whiteCream">
+        <div className="w-full min-h-screen bg-whiteCream flex flex-col">
             {/* Main Section */}
             <div className="relative h-[80vh] flex flex-col justify-center">
                 <h1 className="absolute top-1/6 left-40 text-6xl text-darkPurple md:text-8xl font-bold font-header italic">
@@ -179,12 +179,12 @@ function Assignments() {
 
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">JavaScript refreshing</h4>
+                    <h4 className="text-2xl text-normalPurple font-header mb-8 mt-8">JavaScript refreshing</h4>
                     I attended a refreshing JavaScript workshop where I remembered how to create a vanilla counter, and I refreshed my memory about elements, variables and functions.
                     It was interesting and nice to remember some basic stuff. I am aware that without the base, more complex coding is so a refresh from time to time is needed.
                 </p>
             </div>
-            <div className="flex justify-center mt-4">
+            <div className="flex justify-center mt-4 mb-16">
                 <video className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" controls>
                     <source src={Counting} type="video/mp4" />
                     Your browser does not support the video tag.
@@ -193,47 +193,7 @@ function Assignments() {
 
 
 
-            {/* Design and User research assignments */}
-            <div className="px-40 py-12">
-                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Design and User research assignments</h3>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-            </div>
 
-            {/* Media production assignments */}
-            <div className="px-40 py-12">
-                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Media production assignments</h3>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-                <p className="text-lg text-darkBlack font-body">
-                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">To be added.</h4>
-                    To be added.
-                </p>
-            </div>
 
 
         </div>

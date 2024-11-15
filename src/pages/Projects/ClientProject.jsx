@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 // doc links
 import AiResearchDoc from "../../assets/pdf/Client/AIResearchDoc.pdf";
 import ProjectPlan from "../../assets/pdf/Client/projectPlanAI.pdf";
@@ -6,7 +6,6 @@ import UserResearchQuestions from "../../assets/pdf/Client/UserResearchQuestions
 import InterviewOne from "../../assets/pdf/Client/InterviewOne.pdf";
 import InterviewTwo from "../../assets/pdf/Client/InterviewTwo.pdf";
 // pic links
-import ConceptImage from "../../assets/photos/conceptPicture.jpg";
 import CustomerJourney from "../../assets/photos/customerJourney.png";
 import EmpathyMap from "../../assets/photos/empathyMap.jpg";
 import IdeaDesign from "../../assets/photos/conceptPrototype.jpg";
@@ -15,16 +14,11 @@ import iterationDesign from "../../assets/photos/figmaGroupIterations.jpg";
 
 function ClientProject() {
     const aboutMeRef = useRef(null);
-    const [isImageVisible, setIsImageVisible] = useState(false);
 
     const handleScroll = (ref) => {
         if (ref.current) {
             ref.current.scrollIntoView({ behavior: 'smooth' });
         }
-    };
-
-    const toggleImageVisibility = () => {
-        setIsImageVisible((prev) => !prev);
     };
 
     return (
@@ -127,7 +121,6 @@ function ClientProject() {
                         <p className="mt-2">Empathy Map</p>
                     </div>
                 </div>
-
             </div>
 
             {/* Concept */}
@@ -137,13 +130,7 @@ function ClientProject() {
                     After we established a target audience and summarize the interviews we created a concept. I helped with some ideas and I was present in the discussion even tho I did not did the sketch.
                     My ideas: to have the main application in dutch but have "change language" option in case international children visit the park, to add music to the stories to make them more attractive, to have multiple characters options for the kids and to set a time limit for the stories session per kid.
                     With the rest of ideas even if I did not created them, I shared my opinion and was involved in deciding what we need and do not need.
-                    View our concept sketch <span className="text-xl font-header font-bold text-normalPurple underline cursor-pointer" onClick={toggleImageVisibility}>here</span>.
                 </p>
-                {isImageVisible && (
-                    <div className="mt-4">
-                        <img src={ConceptImage} alt="Concept Sketch" className="w-[500px] h-auto mt-4 rounded-lg" />
-                    </div>
-                )}
             </div>
 
 

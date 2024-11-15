@@ -1,22 +1,16 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 // pics links
 import selfPhoto from "../assets/photos/me.jpg";
 import designWeek from "../assets/photos/designWeek.jpg";
 
 function AboutMe() {
     const aboutMeRef = useRef(null);
-    const [showPhoto, setShowPhoto] = useState(false); // Initialize showPhoto state
 
     const handleScroll = (ref) => {
         if (ref.current) {
             ref.current.scrollIntoView({ behavior: 'smooth' });
         }
     };
-
-    const togglePhoto = () => {
-        setShowPhoto(!showPhoto); // Toggle the photo visibility
-    };
-
 
     return (
         <div className="w-full min-h-screen bg-whiteCream">
@@ -163,26 +157,11 @@ function AboutMe() {
                     Seeing how designers are using technology in creative ways and learning about innovations in sustainable design gave me a better understanding of where design is heading.
                     Overall, it was inspiring to see how the industry is moving forward and to learn from the new ideas that were shared there.
                     It made me discover that I also like looking at art, but I don’t feel the need to also understand it, or to feel it, it is nice just to look at it and appreciate other people’s work.
-                    <br></br>
-                    <span
-                        onClick={togglePhoto}
-                        className="font-body font-bold text-normalPurple cursor-pointer hover:text-lightBlue"
-                    >
-                        Photo from the Dutch design week.
-                    </span>
-
                 </p>
-                {showPhoto && (
-                    <img
-                        src={designWeek}
-                        alt="Dutch Design Week"
-                        className="mt-4 w-[500px] h-auto border-4 border-lightPurple rounded-lg"
-                    />
-                )}
+                <div className="flex justify-center mt-4">
+                    <img src={designWeek} alt="AppSite" className="w-4/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                </div>
             </div>
-
-
-
         </div>
     );
 }
