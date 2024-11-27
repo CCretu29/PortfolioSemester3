@@ -2,6 +2,9 @@ import React, { useRef } from 'react';
 // pics links
 import selfPhoto from "../assets/photos/me.jpg";
 import designWeek from "../assets/photos/designWeek.jpg";
+import businessCardB from "../assets/photos/businessCardB.jpg";
+import businessCardF from "../assets/photos/businessCardF.jpg";
+
 
 function AboutMe() {
     const aboutMeRef = useRef(null);
@@ -137,6 +140,14 @@ function AboutMe() {
                     I chose GitHub in stead of GitLab because I know is more often used in companies. I put there some of my best work from semester two and three and created a readme for the clients to see what I do in those projects.
                     This GitHub link I am going to send to the companies where I apply, together with my Linkedin profile where I have put all my previous experience and projects.
                 </p>
+                <p className="text-md text-darkBlack font-body">
+                    Unfortunately I did not attend the Career Day this time because I had a shift at work that I could not change. Altho before I knew this I wanted to be prepared and created a business card for me to give to people.
+                    I designed it and put some personal information on that, to share it when I will have the occasion.
+                    It was also brought to my attention, by some friends who are currently doing their internship that I also need a CV, not only my Linkedin and GitHub. I am planning to do that one in the upcoming holiday and polish my Git and Linkedin to be perfect.
+                    After that I think the best moment to start to search for internships is from January, on "Indeed" adn "Glassdoor" websites.
+                    I feel ready for this internship, well prepared and I am confident that I will find something until the summer starts.
+                    Until then I am planning to finish this semester with proficient and advanced skills, and then enjoy the Smart mobile specialization.
+                </p>
                 <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">
                     <a
                         href="https://github.com/CCretu29"
@@ -147,6 +158,14 @@ function AboutMe() {
                         This is my personal Git.
                     </a>
                 </h4>
+                <div className="flex justify-center mt-12">
+                    <div className="text-center mx-2">
+                        <img src={businessCardB} alt="customer journey" className="w-4/3 md:w-2/2 rounded-lg border-8 border-lightPurple" />
+                    </div>
+                    <div className="text-center mx-2">
+                        <img src={businessCardF} alt="empathy map" className="w-4/3 md:w-1/2.5 rounded-lg border-8 border-lightPurple" />
+                    </div>
+                </div>
             </div>
 
             <div className="flex flex-col items-start px-40 py-16">
@@ -162,6 +181,20 @@ function AboutMe() {
                     <img src={designWeek} alt="AppSite" className="w-4/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
                 </div>
             </div>
+
+            {/* Coding AI */}
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Working with AI</h2>
+                <p className="text-md text-darkBlack font-body">
+                    For the client project I had to work with AI, more detailed to integrate the AI in my code for it to do something. 
+                    This project came with it's challenges but nothing was impossible.
+                    First I had a problem understanding what the AI is doing as a technical part, but after a chat with one of my peers I understood my assignments.
+                    Working with AI was an interesting experience but with this project I realized that I do not like it that much. That made clear that the AI specialization is not for me, and also that it has a business part witch never interested me.
+                    But this is actually a good thing because it proved my choice for Smart Mobile is right. It also has some UX research and design witch I am familiar with from this semester,
+                    but I can also focus more on programming, and not just frontend, because I started to like working with backend as well.
+                </p>
+            </div>
+
         </div>
     );
 }

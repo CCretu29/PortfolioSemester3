@@ -134,18 +134,18 @@ function ClientProject() {
             </div>
 
 
- {/* Design */}
-<div className="px-40 py-24">
-    <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Application for children design</h3>
-    <p className="text-lg text-darkBlack font-body">
-I designed some ideas that can be used in the future for the final prototype. I put there what came first to my mind following our concept structure.
-Later on, based on our ideas the concept became more structured and clear and the team decided that we will make three or more prototypes for user tests.
-I created one prototype. I started to look online what colors work with the colors of a three, since we decided that the tree is going to be a part of the story.
-I found a color pallet that fitted not only with the tree but with the Efteling park theme as well. I started to experiment with background and buttons colors until I found the right combinations.
-I created a simple interface, so the children that are younger to find it also easy to navigate. I decided the big text and pictures are a very good idea because they imitate the reading books for kids that the parents use to teach their children to read.
-I chose to have some forest elements around the screens to make the fairytale forest as real as possible. 
-    </p>
-    <div className="flex justify-center mt-12">
+            {/* Design */}
+            <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Application for children design</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    I designed some ideas that can be used in the future for the final prototype. I put there what came first to my mind following our concept structure.
+                    Later on, based on our ideas the concept became more structured and clear and the team decided that we will make three or more prototypes for user tests.
+                    I created one prototype. I started to look online what colors work with the colors of a three, since we decided that the tree is going to be a part of the story.
+                    I found a color pallet that fitted not only with the tree but with the Efteling park theme as well. I started to experiment with background and buttons colors until I found the right combinations.
+                    I created a simple interface, so the children that are younger to find it also easy to navigate. I decided the big text and pictures are a very good idea because they imitate the reading books for kids that the parents use to teach their children to read.
+                    I chose to have some forest elements around the screens to make the fairytale forest as real as possible.
+                </p>
+                <div className="flex justify-center mt-12">
                     <div className="text-center mx-2">
                         <img src={IdeaDesign} alt="IdeaDesign" className="w-4/3 md:w-2/2 rounded-lg border-8 border-lightPurple" />
                         <p className="mt-2">Ideas for prototype</p>
@@ -159,7 +159,47 @@ I chose to have some forest elements around the screens to make the fairytale fo
                         <p className="mt-2">Testing styles</p>
                     </div>
                 </div>
-</div>
+            </div>
+
+            {/* Coding */}
+            <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Coding the application</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    We had a meeting with the client where he approved our prototype and concept and he told us to focus on coding the AI part.
+                    We divided tasks and I got to code the speech-to-text and text-to-speech features. It was a challenging task not only because I never worked with AI before,
+                    but because I did not understand how the AI will function in our application technically. In a Figma prototype anything looked nice and simple, but then doing it was more complicated than I expected.
+                    I did not give up and asked for help from one of my peers and my boyfriend that has done software profile and an AI application for a start up.
+                    My colleague explained to me what the AI ia supposed to do and my boyfriend taught me the technical part. I already knew what a controller and service file is from my semester two project, and how to create the backend part, but did not know how to integrate the AI.
+                    I also commented my code writing what everything does for my peers to understand what I did.
+                    <br></br>
+                    This is how I made my part for this project:
+                    I built a Node.js application using Express.js that offers audio transcription and text-to-speech services.
+                    It uses the Replicate API to handle these tasks, with authentication set up through environment variables.
+                    The app has two main functions: one for converting audio files, URLs, or base64 data into text, and another for turning text into speech audio files.
+                    Both functions use the Replicate API to perform these conversions. The server is configured to handle large data and runs on a specified port, 8080.
+                    This allows complex AI tasks to be accessed easily through simple HTTP requests.
+                    <br></br>
+                    The application uses the Replicate API for AI-powered processing, with authentication handled through environment variables loaded by dotenv.
+                    It features two main controllers: transcribeAudioController and textToSpeechController.
+                    The transcribeAudioController accepts audio input in various forms, such as uploaded files, URLs, or base64-encoded data, converts it to text using the Replicate API, and returns the transcription.
+                    Temporary files created during processing are deleted to manage resources efficiently. The textToSpeechController converts text input into speech audio files, also using the Replicate API, and sends these files back as downloadable responses.
+                    I implemented a helper function to handle streaming data from the API, saving it as audio files. The server is configured to listen on a specified port, defaulting to 8080 if not set in environment variables, and includes middleware to handle large JSON and URL-encoded payloads.
+                    This setup abstracts complex AI functionalities into simple HTTP endpoints, making it easy to integrate these capabilities into web applications.
+                    <br></br>
+                    From this project I learned how to integrate an AI in my application, to create and what it is an ".env" file and how generative AI works.
+                    What I already knew is how to set up my NodeJS application, how to create the backend and how to test in Postman.
+                </p>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the group           <a
+                    href="https://git.fhict.nl/I353593/mijnsprookje-pwa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+              </a>.</h4>
+            </div>
+
+            
 
         </div>
     );
