@@ -13,6 +13,9 @@ import DesignDocClient from "../../src/assets/pdf/Client/DesignDocumentClientPro
 import UserDoc from "../../src/assets/pdf/Client/UserResearch&TargetAudience.pdf"; 
 import UserResearchQuestions from "../../src/assets/pdf/Client/UserResearchQuestions.pdf";
 import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
+import ProjectPlanPassionProjectAfterFeedback from "../../src/assets/pdf/Passion/ProjectPlanPassionProjectAfterFeedback.pdf";
+import SurveyResult from "../../src/assets/pdf/Passion/SurveyStatisticsResult.pdf";
+import TargetAudienceResearch from "../../src/assets/pdf/Passion/TargetAudienceResearchDocument.pdf";
 //pics links
 
 
@@ -84,10 +87,12 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><Link to="https://portfoliosemester3.netlify.app/" className="underline">Portfolio page</Link></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
-                                <li><a href={InterviewOne} target="_blank" rel="noopener noreferrer" className="underline">Interview with the girl</a></li>
-                                <li><a href={InterviewTwo} target="_blank" rel="noopener noreferrer" className="underline">Interview with the boy</a></li>
-                                <li><a href={UserDoc} target="_blank" rel="noopener noreferrer" className="underline">User research & Target audience</a></li>
-                                <li><a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="underline">User research questions</a></li>
+                                <li><a href={InterviewOne} target="_blank" rel="noopener noreferrer" className="underline">Interview with the girl - Group project</a></li>
+                                <li><a href={InterviewTwo} target="_blank" rel="noopener noreferrer" className="underline">Interview with the boy - Group project</a></li>
+                                <li><a href={UserDoc} target="_blank" rel="noopener noreferrer" className="underline">User research & Target audience - Group project</a></li>
+                                <li><a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="underline">User research questions - Group project</a></li>
+                                <li><a href={SurveyResult} target="_blank" rel="noopener noreferrer" className="underline">Survey Result - Passion project</a></li>
+                                <li><a href={TargetAudienceResearch} target="_blank" rel="noopener noreferrer" className="underline">Target Audience Research - Passion project</a></li>
                             </ul>
                         </div>
                         <div>
@@ -111,15 +116,16 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><a href="https://git.fhict.nl/I523382/my-work-semester-3-orange" target="_blank" rel="noopener noreferrer" className="underline">MyGit</a></li>
                                 <li><a href="https://github.com/CCretu29/Progressive-web-app" target="_blank" rel="noopener noreferrer" className="underline">PWA</a></li>
+                                <li><a href="https://git.fhict.nl/I509068/efteling-mijn-sprookje" target="_blank" rel="noopener noreferrer" className="underline">GroupGit</a></li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Beginning</p>
+                            <p className="text-md mb-2">Proficient</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of coding tasks, learned about Progressive web app, remembered some basic JavaScript, deployed my portfolio and learned a lot more about GIT.
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of coding tasks, learned about Progressive web app, remembered some basic JavaScript, deployed my portfolio and learned a lot more about GIT, also learned how to work with AI and integrate it in code.
                             </p>
                         </div>
                     </div>
@@ -157,9 +163,10 @@ function LearningOutcomesPage() {
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
                                 <li><a href={StudioContract} target="_blank" rel="noopener noreferrer" className="underline">StudioContract</a></li>
-                                <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter</a></li>
-                                <li><a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="underline">AiResearchDoc</a></li>
-                                <li><a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan</a></li>
+                                <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter - Group project</a></li>
+                                <li><a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="underline">AiResearchDoc - Group project</a></li>
+                                <li><a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan - Group project</a></li>
+                                <li><a href={ProjectPlanPassionProjectAfterFeedback} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan - Passion Project</a></li>
                             </ul>
                         </div>
                         <div>
@@ -191,11 +198,12 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Beginning</p>
+                            <p className="text-md mb-2">Proficient</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
                             <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation in our team, I went to the Dutch Design week and learned and saw a lot of interesting things, I am every day growing in knowledge and I already started to prepare for my Front-end developer internship.
+                                Also, I helped a friend and colleague to be more organized, chose my specialization, and expressed my opinions on what I do like and do not like to do.
                             </p>
                         </div>
                     </div>
