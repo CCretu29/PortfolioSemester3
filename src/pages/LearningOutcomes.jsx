@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import StudioDesign from "../assets/pdf/Studio/StudioDesign.pdf";
 import StudioContract from "../assets/pdf/Studio/StudioContract.pdf";
 import TeamCharter from "../assets/pdf/Studio/TeamCharter.pdf";
-import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
+import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf"; //reading guide1
 import InterviewOne from "../../src/assets/pdf/Client/InterviewOne.pdf";
 import InterviewTwo from "../../src/assets/pdf/Client/InterviewTwo.pdf";   
 import AiResearchDoc from "../../src/assets/pdf/Client/AIResearchDoc.pdf";
@@ -12,10 +12,11 @@ import ProjectPlan from "../../src/assets/pdf/Client/projectPlanAI.pdf";
 import DesignDocClient from "../../src/assets/pdf/Client/DesignDocumentClientProject.pdf"; 
 import UserDoc from "../../src/assets/pdf/Client/UserResearch&TargetAudience.pdf"; 
 import UserResearchQuestions from "../../src/assets/pdf/Client/UserResearchQuestions.pdf";
-import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
+import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";  //reading guide2
 import ProjectPlanPassionProjectAfterFeedback from "../../src/assets/pdf/Passion/ProjectPlanPassionProjectAfterFeedback.pdf";
 import SurveyResult from "../../src/assets/pdf/Passion/SurveyStatisticsResult.pdf";
 import TargetAudienceResearch from "../../src/assets/pdf/Passion/TargetAudienceResearchDocument.pdf";
+import ReadingGuideThree from "../assets/pdf/Personal/ReadingGuide3.0.pdf";  //reading guide3
 //pics links
 
 
@@ -73,6 +74,7 @@ function LearningOutcomesPage() {
                             <ul className="list-disc list-inside">
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version1</a></li>
                                 <li><a href={ReadingGuideTwo} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
+                                <li><a href={ReadingGuideThree} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version3</a></li>
                             </ul>
                         </div>
                     </div>
