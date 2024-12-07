@@ -86,6 +86,7 @@ function ClientProject() {
                     Together, my team and I decided that our target audience would be children between six and ten years old.
                     To prepare for our target audience user research, each of us came up with five questions to ask the children.
                     I wrote these questions based on my experience as a child with stories and information gathered from peer research on this subject.
+                    Whit the fact that I speak a low level of Dutch, I wrote this questions to be asked to both the child and the parent, because a child's english is also not that advanced for this type of interview.
                     Here is the <a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document</a> with all our questions.
                 </p>
             </div>
@@ -189,17 +190,53 @@ function ClientProject() {
                     From this project I learned how to integrate an AI in my application, to create and what it is an ".env" file and how generative AI works.
                     What I already knew is how to set up my NodeJS application, how to create the backend and how to test in Postman.
                 </p>
-                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the group           <a
+                <br></br>
+                <p className="text-lg text-darkBlack font-body">
+                    During our project, we encountered some challenges with our initial Git repository structure.
+                    Recognizing this issue, my boyfriend, who has experience in software development, offered to give us a Git workshop. This workshop  helped us understand better practices for repository management.
+                    Following this, one of my colleagues took the initiative to create a new, better-structured Git repository for our project.
+                    In addition to the AI integration work I described earlier, I also successfully connected the back-end and front-end components for the speech-to-text and text-to-speech features.
+                    This integration was crucial for ensuring that our AI functionalities worked seamlessly within the overall application.
+                    While working on the project, I encountered a console error originating from an HTML file containing script code written by another team member.
+                    Despite not being familiar with that part of the codebase, I took it upon myself to investigate and ultimately fix the error. This experience not only resolved the immediate issue but also deepened my understanding of debugging in a collaborative environment.
+                </p>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the first group           <a
+                    href="https://git.fhict.nl/I509068/efteling-mijn-sprookje"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+                </a>.</h4>
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the second group           <a
                     href="https://git.fhict.nl/I353593/mijnsprookje-pwa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
                 >
                     Git
-              </a>.</h4>
+                </a>.</h4>
             </div>
 
-            
+            {/* Documents */}
+            <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    Together, my team and I wrote the Project report. One of my colleague added all the content, and I wrote my part in the "Process elaboration" with every step that I made for every phase.
+                    Here you can find the <a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">document</a>.
+                </p>
+            </div>
+
+            {/* Presentation */}
+            <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Presentation</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    My colleagues created the presentation, and we practiced twice to make sure that we are ready for the client. First we decided to se how much time will it take to present.
+                    The time was too little so my peers added more content, and we rehearsed again, this time taking longer, witch we wanted. 
+                    On the Sunday before, I also repeated my part to be ready for the presentation.
+                </p>
+            </div>
+
 
         </div>
     );

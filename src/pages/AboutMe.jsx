@@ -186,12 +186,33 @@ function AboutMe() {
             <div className="flex flex-col items-start px-40 py-16">
                 <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Working with AI</h2>
                 <p className="text-md text-darkBlack font-body">
-                    For the client project I had to work with AI, more detailed to integrate the AI in my code for it to do something. 
+                    For the client project I had to work with AI, more detailed to integrate the AI in my code for it to do something.
                     This project came with it's challenges but nothing was impossible.
                     First I had a problem understanding what the AI is doing as a technical part, but after a chat with one of my peers I understood my assignments.
                     Working with AI was an interesting experience but with this project I realized that I do not like it that much. That made clear that the AI specialization is not for me, and also that it has a business part witch never interested me.
                     But this is actually a good thing because it proved my choice for Smart Mobile is right. It also has some UX research and design witch I am familiar with from this semester,
                     but I can also focus more on programming, and not just frontend, because I started to like working with backend as well.
+                </p>
+            </div>
+
+            {/* Helping a friend */}
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Helping a friend with code</h2>
+                <p className="text-md text-darkBlack font-body">
+                    This is a realization from how far I have come, and I am very pound of it. Sometimes I take big steps in my learning, sometimes small steps, but I am pound and happy every time I learn something, no matter the time frame.
+                    This time, not only I learned something technical, but I learned something about me and that is, that I have to trust myself, because I can do anything.
+                    I learned that I can be confident and that with a little practice I can learn anything.
+                    For the story to make sense I have to take you back in semester two. My first vanilla JavaScript lesson, me having no experience with it before,
+                    it was a busy day, the lesson was around three a clock, I was already tired from the group project, and after the presentation and a demo, the teacher gave a simple task: to create a function.
+                    I was so embarrassed that the first time that I tried it did not work, I did not understand the demo and was not able to create a simple function.
+                    I was so annoyed and ashamed, so I packed my things and went home. My boyfriend advised me to try again the next day with a fresh mind. I did, and I understood, and it worked.
+                    I understood then, that I can learn, that I can do it, and I do not have to be worried every time.
+                    I continued to learn JavaScript, passed the semester, learned React, and to my surprise a friend and colleague of mine, asked my help.
+                    This person is making a website using React, and asked me to help setting it up and explain where to put files and what in them and so on.
+                    I helped this friend set up a nice React project, also helped with some group project task, and if the friend will ask, I will continue to help in next steps with the website.
+                    I will not explain here how to create a React project, because you already know, but you can ask me anytime and I will know.
+                    I am always happy to help a friend in any matter, but looking back to see where I left of, and where I am now, I am so happy, and so exited to learn even more.
+                    My love for programming grows with each day.
                 </p>
             </div>
 
