@@ -224,6 +224,19 @@ function AboutMe() {
                 </p>
             </div>
 
+{/* Reflection */}
+<div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Reflection</h2>
+                <p className="text-md text-darkBlack font-body">
+                    From my second review in this semester, I learned something very important. I had the surprise at the review to hear that my teachers did not have access to some git links,
+that some of the PDF's had different fonts in a document and that somehow, I changed the name of our learning outcomes. This are small mistakes that can make a portfolio look very unprofessional.
+I checked all the PDF's to be accessible and have same fonts, I changed the names of our learning outcomes like in Canvas, I gave access to all my teachers to the Git repositories.
+The lesson that I have learned from this, is to double check everything before submitting, to check documents, links, names and spelling. 
+I was also advised to talk more about my iterations, and connect them better, witch I hope I managed to do.
+                </p>
+            </div>
+
+
         </div>
     );
 }
