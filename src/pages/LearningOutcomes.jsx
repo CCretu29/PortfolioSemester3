@@ -83,7 +83,7 @@ function LearningOutcomesPage() {
                 {/* First Box */}
                 <div className="flex justify-center items-center min-h-[40vh] mt-24">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
-                        <h2 className="text-3xl font-header italic mb-4">LO1 - Conceptualize, design, and develop</h2>
+                        <h2 className="text-3xl font-header italic mb-4">LO1 - Conceptualize, design, and develop interactive media products</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
@@ -99,7 +99,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Beginning</p>
+                            <p className="text-md mb-2">Proficient</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
@@ -112,7 +112,7 @@ function LearningOutcomesPage() {
                 {/* Second Box */}
                 <div className="flex justify-center items-center min-h-[40vh]">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
-                        <h2 className="text-3xl font-header italic mb-4">LO2 - Implementing Development Processes</h2>
+                        <h2 className="text-3xl font-header italic mb-4">LO2 - Transferable production</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
@@ -136,7 +136,7 @@ function LearningOutcomesPage() {
                 {/* Third Box */}
                 <div className="flex justify-center items-center min-h-[40vh]">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
-                        <h2 className="text-3xl font-header italic mb-4">LO3 - Enhancing User Experience</h2>
+                        <h2 className="text-3xl font-header italic mb-4">LO3 - Creative iterations</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
@@ -147,7 +147,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Beginning</p>
+                            <p className="text-md mb-2">Proficient</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
@@ -160,7 +160,7 @@ function LearningOutcomesPage() {
                 {/* Fourth Box */}
                 <div className="flex justify-center items-center min-h-[40vh]">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
-                        <h2 className="text-3xl font-header italic mb-4">LO4 - Collaboration and Teamwork</h2>
+                        <h2 className="text-3xl font-header italic mb-4">LO4 - Professional standards</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
@@ -173,7 +173,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Beginning</p>
+                            <p className="text-md mb-2">Proficient</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
@@ -186,7 +186,7 @@ function LearningOutcomesPage() {
                 {/* Fifth Box */}
                 <div className="flex justify-center items-center min-h-[40vh]  pb-24">
                     <div className="bg-normalPurple text-whiteCream w-3/4 md:w-1/2 p-20 rounded-lg shadow-lg">
-                        <h2 className="text-3xl font-header italic mb-4">LO5 - Continuous Learning and Growth</h2>
+                        <h2 className="text-3xl font-header italic mb-4">LO5 - Personal leadership</h2>
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
