@@ -1,6 +1,16 @@
 import React, { useRef } from 'react';
+//pic links
+import moodboardAestetic from "../../assets/photos/moodboard_aestetic.jpg"
+import moodboardOrganized from "../../assets/photos/moodboard_organized.jpg"
+import moodboardAfterFeedback from "../../assets/photos/style_based_moodboard.jpg"
+import logos from "../../assets/photos/logo.jpg"
+import firstDesign from "../../assets/photos/figma1.jpg"
+import pictureIterations from "../../assets/photos/pictureiterations.jpg"
+import projectPage from "../../assets/photos/projectsPage.jpg"
+import icons from "../../assets/photos/figmaicons.jpg"
+import pictures from "../../assets/photos/figmapics.jpg"
+import contactSection from "../../assets/photos/contactSection.jpg"
 //doc links
-import StudioDesign from "../../assets/pdf/Studio/StudioDesign.pdf";
 import StudioContract from "../../assets/pdf/Studio/StudioContract.pdf";
 import TeamCharter from "../../assets/pdf/Studio/TeamCharter.pdf";
 //import ReadingGuide from "../assets/pdf/Personal/ReadingGuide.pdf";
@@ -99,33 +109,77 @@ function Studio() {
             <div className="px-40 py-12">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Design process</h3>
                 <p className="text-lg text-darkBlack font-body">
-                    Here you can find proof pictures: <a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Proof picture document</a><div className=""></div>
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Mood boards</h4>
-                    I made two mood boards. Got feedback from the team on them. Gave
-                    feedback for my peer’s mood boards too. Here is the link for the mood
-                    boards.
-                    Based on that I was a part of choosing a style for which I did another
-                    mood board, got feedback on it and gave feedback on my peer’s mood
-                    boards as well.
-                    From this I learned that I could improve my mood boards, I made them
-                    too simple and basic. I now understand how a mood board should look
-                    and be made by receiving feedback and looking at my colleague’s work.
+                    For this project I created a mood board in order to decide what vibe we want to have.
+                    Mood boards were never my strong point but I did try my best. I created two mood board looking for inspiration on Pinterest.
+                    I found one model that  has only pictures put one next to each other that I found interesting, and then chose some pictures that I thought give the aurora vibe.
+                    The second mood board used the same pictures, except I added a bit of space, some logo ideas, some color pallets, and fonts.
+                    I got feedback on them from my peers, and also gave feedback to my peers too. 
+                    My peers feedback was that they mostly liked the colors, logo ideas and the sunrise vibe. They also liked the structure of the mood board with only pictures.
+                    Improvement points were to make it look more professional, to structure things better so what font I want to use becomes more clear and maybe have a bit more diversity.
+                    This are the two mood boards.
+                    <div className="flex justify-center mt-4">
+                    <img src={moodboardAestetic} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                    <img src={moodboardOrganized} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                </div>
+
+                <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Mood boards after feedback</h4>
+                   After all the team members made mood boards and got feedback on them, we voted and chose a style. Based on that style we created one more mood board to decide fonts and colors.
+                   I created mine trying to follow my peers advices, making the fonts clear, organizing everything, putting some logo ideas and colors.
+                   Feedback that I got from my team mates for it is that if I use one color pallet, the rest of the mood board should also use those colors, 
+                   that it can still look more professional even if it is organized, the fonts were still not clear, and that it looked more like an inspiration wall than a mood board. 
+                   They did like the logo ideas. 
+                   I learned from this feedback and next time when I will have to make a mood board I will take it in consideration, and inspire from my team mates good ideas from their mood boards.
+                   This is my mood board.
+                    <div className="flex justify-center mt-4">
+                    <img src={moodboardAfterFeedback} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                   </div>
+
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Logos</h4>
-                    I made some logo sketches from witch my team find inspiration.
+                    Some teachers from semester two know that I do not really like to design logos, because I do not really like the tool that I have to use for that.
+                    This task I left to my team mates, but to contribute just a little bit, I draw some ideas for them to have inspiration.
+                    I am also not good at drawing, but that did not stop me to express my ideas. 
+                    I made some sketches using our last mood board as inspiration, thinking what could also the name "Aurora" transmit.
+                    I showed the drawings to my peers, and they liked them, and used them as inspiration initially.
+                    We did decide on a letter logo at the end, choosing a professional style.
+                    <div className="flex justify-center mt-4">
+                    <img src={logos} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                   </div>
+
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Website design</h4>
-                    I made a website design together with a peer. I made more iterations on
-                    the website design experimenting with colors and shapes until I was
-                    happy with the results. I experimented with the style for pictures,
-                    project page and contact section asking for feedback from my peers.
-                    In the following pictures you will see my iterative process.
-                    Here is the first design that I made for us to have an idea and some
-                    inspiration to create the website.
+                    The team decided that some of us, can make a simple design idea to have as inspiration and start for our website.
+                    I inspired from the mood board we chose we are going to follow, made a simple and basic structure and added the colors we wanted.
+                    I got feedback on the design, that it looks pretty, that it follows the mood boards and it is a good start.
+                    Together with a colleague we compared our designs and started to create the prototype. 
                     I had an idea, for displaying the pictures with us. When you hover over
                     the picture it appears the name and some information about the person. I
                     experimented with different backgrounds and chose the transparent one.
+                    My team mate also agreed the transparent background is the best idea for the hover.
+                    I experimented with some icon style, making different version and my peers chose the most fitted one. 
+                    I also designed the contact section, where a team mate guided me to make it minimalistic and simple.
+                    Me and the colleague that I was working with decided together that we should show some of our past personal project in our website for the client to see what we are capable of.
+                    Our peers loved the idea and I helped design the project page, following my team mate style and completing the page.
+                    In the following pictures you will see my iterative process.
+                    <div className="flex flex-wrap justify-center mt-4">
+  <div className="flex justify-center w-full mb-4">
+    <img src={firstDesign} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
+    <img src={pictureIterations} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
+  </div>
+  <div className="flex justify-center w-full mb-4">
+    <img src={pictures} alt="Prototype" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+    <img src={icons} alt="Icons" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+  </div>
+  <div className="flex justify-center w-full">
+    <img src={contactSection} alt="Contact Section" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+    <img src={projectPage} alt="Project Page" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+  </div>
+</div>
+
+
+
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">User test on website design</h4>
                     I did a user test on the website. This is my user test:
-                    “To validate the team choices the team made several user tests on our
+                    To validate the team choices the team made several user tests on our
                     final version website prototype. The user test was made with a student
                     from Smart Mobile profile at my house. I recorded the screen of my
                     laptop with the sound on with the approval of the user. After recording I
