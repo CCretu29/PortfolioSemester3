@@ -123,11 +123,19 @@ function AboutMe() {
                 <p className="text-md text-darkBlack font-body">
                     I chose Smart Mobile for two semesters because in these three semesters
                     I concluded that I am more into programming then design and user
-                    research. I also did my research about all the specializations and building
+                    research, and Smart Mobile has both programming and design, but more programming. 
+                    I also did my research about all the specializations and building
                     web applications sounds very interesting and challenging for me. I know I
                     want to choose the Health Innovation minor since I heard about it in
-                    semester two because of my passion for both medical and IT fields, and I
-                    think the choices for internships already speak from themselves.
+                    semester two because of my passion for both medical and IT fields and my background as a nurse.
+                    For the first internship I chose to do a frontend internship, since I discovered that I really like frontend and I am good at it.
+                    For the final internship I would take the challenge to do a full stack internship.
+                </p>
+                <p className="text-md text-darkBlack font-body">
+                    My timeline was appreciated by teachers and impressed them. One advise was added witch I will do take in consideration. 
+                    A teacher advised me to rethink my full stack decision on the final internship. I will, when I apply for that.
+                    For now I am just experimenting with back-end, but in two Smart Mobile semesters I will find out if I like it, if I am good at it, and if the answer is yes,
+                    I have plenty of time in holidays, to learn more.
                 </p>
             </div>
 

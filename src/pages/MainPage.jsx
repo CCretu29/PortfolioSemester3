@@ -2,10 +2,10 @@ import React, { useRef } from 'react';
 //pics links
 import selfPhoto from "../assets/photos/me.jpg";
 import auroraStudio from "../assets/photos/auroraProject.jpg";
-import replacePhoto from "../assets/photos/replacement_photo.jpg";
 import portfolioPhoto from "../assets/photos/portfolioPhoto.png";
 import codePicture from "../assets/photos/codePic.png";
 import clientProject from "../../src/assets/photos/clientMain.jpg"
+import PassionProject from "../../src/assets/photos/passionProject.png"
 
 //doc links
 import ReadingGuideTwo from "../assets/pdf/Personal/ReadingGuide2.0.pdf";
@@ -209,7 +209,7 @@ function MainPage() {
         <div className="w-full flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/3">
             <img
-              src={replacePhoto}
+              src={PassionProject}
               alt="Passion Project"
               className="w-full rounded-lg border-8 border-lightPurple" />
           </div>

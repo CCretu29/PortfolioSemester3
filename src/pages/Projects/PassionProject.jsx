@@ -6,6 +6,8 @@ import SurveyResult from "../../assets/pdf/Passion/SurveyStatisticsResult.pdf";
 import TargetAudienceResearch from "../../assets/pdf/Passion/TargetAudienceResearchDocument.pdf";
 import Personas from "../../assets/pdf/Passion/Personas.pdf";
 import AIResearch from "../../assets/pdf/Passion/CompetingWithAIResearchDocument.pdf";
+import UserScript from "../../assets/pdf/Passion/UserTestScripts.pdf";
+import UserAccord from "../../assets/pdf/Passion/UserTestAgreements.pdf";
 // pic links
 import planning from "../../assets/photos/planning.jpg";
 
@@ -141,7 +143,50 @@ function PassionProject() {
                 <p className="text-lg text-darkBlack font-body">
                     I decided to take a minimum of four user tests per prototype and also have one or two new people every time, to try to reach a bigger mass of people.
                     This is because my target audience is very vast and this method was approved and validated by a teacher.
+                    In developing the final prototype for my photography blog, I followed a comprehensive iterative process, incorporating user feedback and design principles at each stage:
+                    <br></br>
+                    Wireframe Creation:
+                    I started by creating simple wireframes to establish the basic structure and navigation of the website. These wireframes focused on layout and functionality without any color or detailed design elements.
+                    <br></br>
+                    Initial User Testing:
+                    I conducted user tests with the wireframes, gathering feedback on navigation and overall structure. This phase revealed the need for more intuitive navigation and a clearer presentation of photo categories. Importantly, I created a user test approval document, ensuring ethical testing practices and obtaining consent from all participants.
+                    <br></br>
+                    First Functional Prototype:
+                    Incorporating the initial feedback, I developed the first functional prototype. This version included improved navigation, a more structured gallery, and basic search and filter functions. Based on user suggestions, I added a "Browse All" button and ensured the category names were clearly visible without scrolling.
+                    <br></br>
+                    Color Experimentation:
+                    At this stage, I began experimenting with different color schemes. I chose to focus on purple and blue, understanding that purple is associated with creativity and blue with trust - both crucial elements for a photography portfolio.
+                    <br></br>
+                    Peer Review:
+                    I consulted with my peers, showing them different color variations and layouts. Their input was valuable in refining the aesthetic direction of the site.
+                    <br></br>
+                    Second Round of User Testing:
+                    With the colored prototype, I conducted another round of user tests. Users appreciated the clean design but requested more information about licensing and usage rights. They also suggested making the contact information more prominent and adding a fixed navigation bar for easier access to all options.
+                    <br></br>
+                    Refinement and Feature Addition:
+                    Based on this feedback, I added informative icons for licensing details and clarified the purchase process. I implemented a fixed navigation bar and made the contact information more accessible from the main page. I also fine-tuned the color palette to ensure it complemented the photographs without overshadowing them.
+                    <br></br>
+                    Final Adjustments:
+                    In the last iteration, I made subtle adjustments to improve overall user experience, such as refining button placements and enhancing the responsiveness of the gallery. I also added multiple ways to access the gallery and implemented both a filter function and a "view all" option, as suggested by users.
+                    <br></br>
+                    Final Feedback:
+                    The last round of testing confirmed that the interface was intuitive and efficient for a diverse range of users. Users particularly appreciated the clear pricing structure, the easy-to-find licensing information, and the multiple ways to browse and filter images.
+                    Throughout this process, I consistently sought feedback from different user groups and peers, always ensuring I had proper documentation and approval for user testing. I paid special attention to how the design elements, particularly the color scheme, affected the perception and usability of the site.
+                    <br></br>
+                    Some key user feedback that I implemented included:
+                    Adding a fixed navigation bar for constant access to all options
+                    Implementing both category browsing and a search/filter function
+                    Making licensing and usage rights information easily accessible through info icons
+                    Ensuring multiple pathways to access the gallery from different parts of the site
+                    Improving the visibility of contact information for custom requests
+                    Refining the checkout process to make it more straightforward
+                    The final prototype represents a culmination of these iterative improvements, resulting in a user-friendly interface that effectively showcases my photography while providing a smooth and enjoyable browsing experience.
+                    <br></br>
+                    This is my <a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=207-4&t=eZM1NyG2dTdNshOh-1" target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">design</a>.
                 </p>
+                <p className="text-lg text-darkBlack font-body"> This is the document with the <a href={UserScript} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">User Test Scripts</a>.  </p>
+
+                <p className="text-lg text-darkBlack font-body"> Here is the document with the <a href={UserAccord} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">User Test Agreements</a>. </p>
             </div>
 
             {/* Development and deploy */}
