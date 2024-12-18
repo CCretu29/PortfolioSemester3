@@ -17,6 +17,7 @@ import ProjectPlanPassionProjectAfterFeedback from "../../src/assets/pdf/Passion
 import SurveyResult from "../../src/assets/pdf/Passion/SurveyStatisticsResult.pdf";
 import TargetAudienceResearch from "../../src/assets/pdf/Passion/TargetAudienceResearchDocument.pdf";
 import ReadingGuideThree from "../assets/pdf/Personal/ReadingGuide3.0.pdf";  //reading guide3
+import ReadingGuideFour from "../assets/pdf/Personal/ReadingGuide4.0.pdf";  //reading guide4
 //pics links
 
 
@@ -75,6 +76,7 @@ function LearningOutcomesPage() {
                                 <li><a href={ReadingGuide} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version1</a></li>
                                 <li><a href={ReadingGuideTwo} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
                                 <li><a href={ReadingGuideThree} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version3</a></li>
+                                <li><a href={ReadingGuideFour} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version4</a></li>
                             </ul>
                         </div>
                     </div>
