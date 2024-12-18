@@ -17,6 +17,12 @@ import ProjectPlanPassionProjectAfterFeedback from "../../src/assets/pdf/Passion
 import SurveyResult from "../../src/assets/pdf/Passion/SurveyStatisticsResult.pdf";
 import TargetAudienceResearch from "../../src/assets/pdf/Passion/TargetAudienceResearchDocument.pdf";
 import ReadingGuideThree from "../assets/pdf/Personal/ReadingGuide3.0.pdf";  //reading guide3
+import ProjectReport from "../../src/assets/pdf/Client/ProjectReport.pdf";
+import AdviceReport from "../../src/assets/pdf/Client/AdvisoryReportAfterFeedback.pdf";
+import CompeteAI from "../../src/assets/pdf/Passion/CompetingWithAIResearchDocument.pdf";
+import Personas from "../../src/assets/pdf/Passion/Personas.pdf";
+import UserTestAgreed from "../../src/assets/pdf/Passion/UserTestAgreements.pdf";
+import UserTest from "../../src/assets/pdf/Passion/UserTestScripts.pdf";
 import ReadingGuideFour from "../assets/pdf/Personal/ReadingGuide4.0.pdf";  //reading guide4
 //pics links
 
@@ -97,6 +103,9 @@ function LearningOutcomesPage() {
                                 <li><a href={UserResearchQuestions} target="_blank" rel="noopener noreferrer" className="underline">User research questions - Group project</a></li>
                                 <li><a href={SurveyResult} target="_blank" rel="noopener noreferrer" className="underline">Survey Result - Passion project</a></li>
                                 <li><a href={TargetAudienceResearch} target="_blank" rel="noopener noreferrer" className="underline">Target Audience Research - Passion project</a></li>
+                                <li><a href={Personas} target="_blank" rel="noopener noreferrer" className="underline">Personas - Passion project</a></li>
+                                <li><a href={UserTestAgreed} target="_blank" rel="noopener noreferrer" className="underline">User test agreements - Passion project</a></li>
+                                <li><a href={UserTest} target="_blank" rel="noopener noreferrer" className="underline">User tests - Passion project</a></li>
                             </ul>
                         </div>
                         <div>
@@ -118,9 +127,10 @@ function LearningOutcomesPage() {
                         <div className="mb-6">
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Products:</h3>
                             <ul className="list-disc list-inside">
-                                <li><a href="https://git.fhict.nl/I523382/my-work-semester-3-orange" target="_blank" rel="noopener noreferrer" className="underline">MyGit</a></li>
-                                <li><a href="https://github.com/CCretu29/Progressive-web-app" target="_blank" rel="noopener noreferrer" className="underline">PWA</a></li>
-                                <li><a href="https://git.fhict.nl/I509068/efteling-mijn-sprookje" target="_blank" rel="noopener noreferrer" className="underline">GroupGit</a></li>
+                                <li><a href="https://git.fhict.nl/I523382/my-work-semester-3-orange" target="_blank" rel="noopener noreferrer" className="underline">My GitLab</a></li>
+                                <li><a href="https://github.com/CCretu29" target="_blank" rel="noopener noreferrer" className="underline">MY personal GitHub</a></li>
+                                <li><a href="https://git.fhict.nl/I509068/efteling-mijn-sprookje" target="_blank" rel="noopener noreferrer" className="underline">Group Git 1</a></li>
+                                <li><a href="https://git.fhict.nl/I353593/mijnsprookje-pwa" target="_blank" rel="noopener noreferrer" className="underline">Group Git 2</a></li>
                             </ul>
                         </div>
                         <div>
@@ -145,6 +155,7 @@ function LearningOutcomesPage() {
                                 <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                                 <li><a href={DesignDocClient} target="_blank" rel="noopener noreferrer" className="underline">Design Document Client Project</a></li>
+                                <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=207-4&t=eZM1NyG2dTdNshOh-1" target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Passion project website design</a></li>
                             </ul>
                         </div>
                         <div>
@@ -153,7 +164,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because I completed a design based on the users needs, respected design principle and brainstormed design concepts.
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed multiple designs based on the users needs, respected design principles, brainstormed design concepts and user tested everything.
                             </p>
                         </div>
                     </div>
@@ -170,7 +181,10 @@ function LearningOutcomesPage() {
                                 <li><a href={TeamCharter} target="_blank" rel="noopener noreferrer" className="underline">TeamCharter - Group project</a></li>
                                 <li><a href={AiResearchDoc} target="_blank" rel="noopener noreferrer" className="underline">AiResearchDoc - Group project</a></li>
                                 <li><a href={ProjectPlan} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan - Group project</a></li>
+                                <li><a href={ProjectReport} target="_blank" rel="noopener noreferrer" className="underline">ProjectReport - Group project</a></li>
+                                <li><a href={AdviceReport} target="_blank" rel="noopener noreferrer" className="underline">AdviseReport - Group project</a></li>
                                 <li><a href={ProjectPlanPassionProjectAfterFeedback} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan - Passion Project</a></li>
+                                <li><a href={CompeteAI} target="_blank" rel="noopener noreferrer" className="underline">Competing with AI research document - Passion Project</a></li>
                             </ul>
                         </div>
                         <div>
@@ -179,7 +193,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because of my AI research, the target audience research and also because I am using the C.M.D. methods of research for the Client project.
+                            <p className="text-md mb-2">I believe that I proved my grade by showing my research skills, by applying methodologies that I have learned about and with the vast research that I have done this semester.
                             </p>
                         </div>
                     </div>
@@ -202,12 +216,13 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Proficient</p>
+                            <p className="text-md mb-2">Advanced</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation in our team, I went to the Dutch Design week and learned and saw a lot of interesting things, I am every day growing in knowledge and I already started to prepare for my Front-end developer internship.
-                                Also, I helped a friend and colleague to be more organized, chose my specialization, and expressed my opinions on what I do like and do not like to do.
+                            <p className="text-md mb-2">I believe that I proved my grade because I handled very well every situation and discussion in our team, I went to the Dutch Design week and learned and saw a lot of interesting things, I am every day growing in knowledge, learning a lot from this semester and I already started to prepare for my Front-end developer internship.
+                                Also, I helped a friend and colleague to be more organized, to build her React project and to chose her specialization.
+                                I chose my specialization and I already know what I want to do in my future Fonts years and alo in my career, and expressed my opinions on what I do like and do not like to do.
                             </p>
                         </div>
                     </div>
