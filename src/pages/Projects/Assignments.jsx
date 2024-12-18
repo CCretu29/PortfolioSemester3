@@ -62,14 +62,7 @@ function Assignments() {
             {/* Code assignments */}
             <div className="px-40 py-12">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Coding assignments</h3>
-                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is my           <a
-                    href="https://git.fhict.nl/I523382/my-work-semester-3-orange"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
-                >
-                    Git
-                </a>. In here you can find the assignments, and also the code for my portfolio.</h4>
+
 
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
@@ -89,6 +82,15 @@ function Assignments() {
                     </video>
                 </div>
 
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the           <a
+                    href="https://github.com/CCretu29/Coding-Assignments/tree/main/counting"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+                </a> with my project.</h4>
+
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Flying object game</h4>
@@ -105,6 +107,15 @@ function Assignments() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
+
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the           <a
+                    href="https://github.com/CCretu29/Coding-Assignments/tree/main/flying"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+                </a> with my project.</h4>
 
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
@@ -123,6 +134,15 @@ function Assignments() {
                     </video>
                 </div>
 
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the           <a
+                    href="https://github.com/CCretu29/Coding-Assignments/tree/main/intro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+                </a> with my project.</h4>
+
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Pokemon</h4>
@@ -139,6 +159,15 @@ function Assignments() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
+
+                <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the           <a
+                    href="https://github.com/CCretu29/Coding-Assignments/tree/main/pokemon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git
+                </a> with my project.</h4>
 
                 {/*task*/}
                 <p className="text-lg text-darkBlack font-body">
@@ -177,14 +206,14 @@ function Assignments() {
                     <img src={LearnGit} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
                 </div>
                 <p className="text-lg text-darkBlack font-body mt-8">
-                   I encountered a problem with Git while coding my portfolio. I was writing in a section and uploaded a picture for that section that was too big for Git.
-                   I learned that Git does not support pictures bigger than 100MB. I deleted the picture from my folder but that was not enough because I would get an error in my GitBash terminal and the content would not be committed in my other Git like it should.
-                   To deploy my portfolio I needed to have it on a personal Git, and for school also to have it on my university Git. 
-                   So this two Git repositories are connected and I commit my changes using the command "git pushboth". 
-                   Well, that did not work anymore because the picture was still in the commit history. I cut the connection between the two repositories and connected them again, because I thought if I cut the connection it will forget the commit with the picture.
-                   That did not work, so I searched online how to delete commit history without deleting the commits.
-                   I found and learned new commands and successfully deleted the picture from the history, leaving the commits where they are.
-                   I discovered that I enjoy working with terminals. 
+                    I encountered a problem with Git while coding my portfolio. I was writing in a section and uploaded a picture for that section that was too big for Git.
+                    I learned that Git does not support pictures bigger than 100MB. I deleted the picture from my folder but that was not enough because I would get an error in my GitBash terminal and the content would not be committed in my other Git like it should.
+                    To deploy my portfolio I needed to have it on a personal Git, and for school also to have it on my university Git.
+                    So this two Git repositories are connected and I commit my changes using the command "git pushboth".
+                    Well, that did not work anymore because the picture was still in the commit history. I cut the connection between the two repositories and connected them again, because I thought if I cut the connection it will forget the commit with the picture.
+                    That did not work, so I searched online how to delete commit history without deleting the commits.
+                    I found and learned new commands and successfully deleted the picture from the history, leaving the commits where they are.
+                    I discovered that I enjoy working with terminals.
 
                 </p>
 
@@ -202,16 +231,17 @@ function Assignments() {
                 </video>
             </div>
 
+            
 
             <div className="px-40 py-12">
-    <p className="text-lg text-darkBlack font-body">
-        <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">NodeJS and MongoDb workshop</h4>
-        I attended a workshop about basic NodeJS, connection between back-end and a NonSQL database, MongoDB,
-        I found the workshop very interesting and helpful it reminded me some things that I learned in semester two for my Passion project like, connection between back-end and database, authentication and simple functions.
-        I also learned briefly about CRUD, create, read, update, delete, about roles with can be users, admin, manager.
-        I am looking forward in learning ore about them, and working with them in my Passion project for this semester. 
-    </p>
-</div>
+                <p className="text-lg text-darkBlack font-body">
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">NodeJS and MongoDb workshop</h4>
+                    I attended a workshop about basic NodeJS, connection between back-end and a NonSQL database, MongoDB,
+                    I found the workshop very interesting and helpful it reminded me some things that I learned in semester two for my Passion project like, connection between back-end and database, authentication and simple functions.
+                    I also learned briefly about CRUD, create, read, update, delete, about roles with can be users, admin, manager.
+                    I am looking forward in learning ore about them, and working with them in my Passion project for this semester.
+                </p>
+            </div>
 
 
 
