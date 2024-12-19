@@ -16,10 +16,10 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-bold font-header mb-2">Useful Links</h2>
           <ul className="space-y-2 font-body">
-            <li><a  href={resume} target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
+            <li><a  href={resume} target="_blank" rel="noopener noreferrer" className="text-whiteNormal hover:underline">
                             Resume
                         </a></li>
-            <li><a  href={ReadingGuideFour} target="_blank" rel="noopener noreferrer" className="text-darkBlack hover:underline">
+            <li><a  href={ReadingGuideFour} target="_blank" rel="noopener noreferrer" className="text-whiteNormal hover:underline">
                             ReadingGuide
                         </a></li>
           </ul>
