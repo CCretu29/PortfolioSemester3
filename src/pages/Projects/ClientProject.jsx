@@ -277,6 +277,17 @@ function ClientProject() {
                    Another good feedback from the teachers was that using the phones to swipe the slides can be unprofessional in some situations. I also thought about that when my peer suggested it,
                    but I did not say anything about it. I would use the mouse in stead.
                 </p>
+                <div className="mt-4">
+        <a 
+            href="https://drive.google.com/file/d/137RbNiEcNSqWwI-hJ3d0BfgSep60XJpH/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-lg text-darkPurple font-bold font-body hover:underline"
+        >
+            Click here to see the video with the presentation.
+        </a>
+    </div>
+        
             </div>
 
             {/* Reflection */}

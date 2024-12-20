@@ -123,7 +123,7 @@ function AboutMe() {
                 <p className="text-md text-darkBlack font-body">
                     I chose Smart Mobile for two semesters because in these three semesters
                     I concluded that I am more into programming then design and user
-                    research, and Smart Mobile has both programming and design, but more programming. 
+                    research, and Smart Mobile has both programming and design, but more programming.
                     I also did my research about all the specializations and building
                     web applications sounds very interesting and challenging for me. I know I
                     want to choose the Health Innovation minor since I heard about it in
@@ -132,7 +132,7 @@ function AboutMe() {
                     For the final internship I would take the challenge to do a full stack internship.
                 </p>
                 <p className="text-md text-darkBlack font-body">
-                    My timeline was appreciated by teachers and impressed them. One advise was added witch I will do take in consideration. 
+                    My timeline was appreciated by teachers and impressed them. One advise was added witch I will do take in consideration.
                     A teacher advised me to rethink my full stack decision on the final internship. I will, when I apply for that.
                     For now I am just experimenting with back-end, but in two Smart Mobile semesters I will find out if I like it, if I am good at it, and if the answer is yes,
                     I have plenty of time in holidays, to learn more.
@@ -224,15 +224,31 @@ function AboutMe() {
                 </p>
             </div>
 
-{/* Reflection */}
-<div className="flex flex-col items-start px-40 py-16">
+            {/* Helping people */}
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Joining Student+ Team</h2>
+                <p className="text-md text-darkBlack font-body">
+                    In semester two I visited Student + because I needed some personal help. Student + helped me back then and they still do. A few weeks ago I was invited to give an interview regarding feedback for Student +.
+                    That is how I found out that I can also help and guide other students.
+                    At Student + there is a section where any student can sign in and help other students with guidance about the semesters, about the Netherlands and personal problems.
+                    I sign up because I want to help other people with ques or struggles like I was helped.
+                    Now I am waiting to be accepted and to start helping.
+                    I did take in consideration my schedule that I know will not be affected with this extra activity because the meeting will be chose by me so I will be able to divide my tasks to have time for everyone.
+                    I am very happy that I can make a difference for other students and show my kindness.
+                </p>
+            </div>
+
+
+
+            {/* Reflection */}
+            <div className="flex flex-col items-start px-40 py-16">
                 <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Reflection</h2>
                 <p className="text-md text-darkBlack font-body">
                     From my second review in this semester, I learned something very important. I had the surprise at the review to hear that my teachers did not have access to some git links,
-that some of the PDF's had different fonts in a document and that somehow, I changed the name of our learning outcomes. This are small mistakes that can make a portfolio look very unprofessional.
-I checked all the PDF's to be accessible and have same fonts, I changed the names of our learning outcomes like in Canvas, I gave access to all my teachers to the Git repositories.
-The lesson that I have learned from this, is to double check everything before submitting, to check documents, links, names and spelling. 
-I was also advised to talk more about my iterations, and connect them better, witch I hope I managed to do.
+                    that some of the PDF's had different fonts in a document and that somehow, I changed the name of our learning outcomes. This are small mistakes that can make a portfolio look very unprofessional.
+                    I checked all the PDF's to be accessible and have same fonts, I changed the names of our learning outcomes like in Canvas, I gave access to all my teachers to the Git repositories.
+                    The lesson that I have learned from this, is to double check everything before submitting, to check documents, links, names and spelling.
+                    I was also advised to talk more about my iterations, and connect them better, witch I hope I managed to do.
                 </p>
             </div>
 
