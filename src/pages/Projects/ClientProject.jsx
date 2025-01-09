@@ -232,7 +232,7 @@ function ClientProject() {
                 <p className="text-lg text-darkBlack font-body">
                     Together, my team and I wrote the Advisory report. I wrote the "Threats" and the "Risks and mitigation strategies" sections.
                     I opened the application, tested it and thought what can the threads and risks be.
-                    After a colleague asked for feedback for the document I only had to add the features that can lead to those risks.  
+                    After a colleague asked for feedback for the document I only had to add the features that can lead to those risks.
                     <br></br>
                     Here you can find the <a href={AdvisoryReport} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Advisory report</a>.
                     <br></br>
@@ -245,59 +245,59 @@ function ClientProject() {
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Presentation</h3>
                 <p className="text-lg text-darkBlack font-body">
                     My colleagues created the presentation, and we practiced twice to make sure that we are ready for the client. First we decided to see how much time will it take to present.
-                    The time was too little so my peers added more content, and we rehearsed again, this time taking longer, witch we wanted. 
+                    The time was too little so my peers added more content, and we rehearsed again, this time taking longer, witch we wanted.
                     On the Sunday before, I also repeated my part to be ready for the presentation.
                 </p>
                 <p className="text-lg text-darkBlack font-body">
                     The presentation day came, I dressed up nicely and professional and came to school early. Our turn came and we presented our product.
                     I was not nervous before, but I was a little during the presentation, and the things that I rehearsed a night before did not come out line by line, so I improvised.
                     This happened because of the emotions, I wanted to have a nice speech with fancy words witch I kind of forgot.
-                    From this I learned that I do not have to let my emotions lead me. It was still okay and I said what I had to, but not with fancy words. 
+                    From this I learned that I do not have to let my emotions lead me. It was still okay and I said what I had to, but not with fancy words.
                     The client was happy with our product and we also got good feedback from the teacher, witch said that it was a good group project, that of course there will always be room for improvement, but overall it is good.
                 </p>
                 <p className="text-lg text-darkBlack font-body">
-                   We filmed our presentation, as an exercise to see how we can improve in future presentations. 
-                   For me, this presentation was different from the others because here I was controlled by emotions, and could not present as I usually do.
-                   <br></br>
-                   I would like to improve in the future presentations:
-                   <br></br>
-                   - to not be controlled by emotions
-                   <br></br>
-                   - to use a more professional language and fancy words
-                   <br></br>
-                   - to gesticulate more, but not exaggerate
-                   <br></br>
-                   - to look at the client and audience more
-                   <br></br>
-                   - to have a bigger part in the presentation, because half of the time I was just standing there
-                   <br></br>
-                   One nice feedback that I got from our teacher is that the whole group should not stay all in the front of the screen while only one is presenting.
-                   He told us that this gets distracting from the presentation, and it would be better if we stay in the benches.
-                   I agreed with the advise, but not with the benches. I would suggest to stay aside and then come to the front to not disturb people getting out of the bench.
-                   Another good feedback from the teachers was that using the phones to swipe the slides can be unprofessional in some situations. I also thought about that when my peer suggested it,
-                   but I did not say anything about it. I would use the mouse in stead.
+                    We filmed our presentation, as an exercise to see how we can improve in future presentations.
+                    For me, this presentation was different from the others because here I was controlled by emotions, and could not present as I usually do.
+                    <br></br>
+                    I would like to improve in the future presentations:
+                    <br></br>
+                    - to not be controlled by emotions
+                    <br></br>
+                    - to use a more professional language and fancy words
+                    <br></br>
+                    - to gesticulate more, but not exaggerate
+                    <br></br>
+                    - to look at the client and audience more
+                    <br></br>
+                    - to have a bigger part in the presentation, because half of the time I was just standing there
+                    <br></br>
+                    One nice feedback that I got from our teacher is that the whole group should not stay all in the front of the screen while only one is presenting.
+                    He told us that this gets distracting from the presentation, and it would be better if we stay in the benches.
+                    I agreed with the advise, but not with the benches. I would suggest to stay aside and then come to the front to not disturb people getting out of the bench.
+                    Another good feedback from the teachers was that using the phones to swipe the slides can be unprofessional in some situations. I also thought about that when my peer suggested it,
+                    but I did not say anything about it. I would use the mouse in stead.
                 </p>
                 <div className="mt-4">
-        <a 
-            href="https://drive.google.com/file/d/137RbNiEcNSqWwI-hJ3d0BfgSep60XJpH/view?usp=sharing" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-lg text-darkPurple font-bold font-body hover:underline"
-        >
-            Click here to see the video with the presentation.
-        </a>
-    </div>
-        
+                    <a
+                        href="https://drive.google.com/file/d/137RbNiEcNSqWwI-hJ3d0BfgSep60XJpH/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg text-darkPurple font-bold font-body hover:underline"
+                    >
+                        Click here to see the video with the presentation.
+                    </a>
+                </div>
+
             </div>
 
             {/* Reflection */}
             <div className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Reflection</h3>
                 <p className="text-lg text-darkBlack font-body">
-                  From this project I have learned a lot, not only technical things, but also what does it mean to work with a real client, in the real world.
-                  I did learned how to integrate an AI in code, a little bit of back-end and practice with design, user research and research skills.
-                  I also learned that communication with the client is vital, and that can be improved, also communication with the team is very important and vital for the project.
-                  I enjoyed working at this project an I am grateful for the lessons that I have learned.
+                    From this project I have learned a lot, not only technical things, but also what does it mean to work with a real client, in the real world.
+                    I did learned how to integrate an AI in code, a little bit of back-end and practice with design, user research and research skills.
+                    I also learned that communication with the client is vital, and that can be improved, also communication with the team is very important and vital for the project.
+                    I enjoyed working at this project an I am grateful for the lessons that I have learned.
                 </p>
             </div>
 
