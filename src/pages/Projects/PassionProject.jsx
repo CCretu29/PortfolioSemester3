@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import Slideshow from "../../components/Slideshow";
 // doc links
 import ProjectPlanPassionProject from "../../assets/pdf/Passion/ProjectPlanPassionProject.pdf";
 import ProjectPlanPassionProjectAfterFeedback from "../../assets/pdf/Passion/ProjectPlanPassionProjectAfterFeedback.pdf";
@@ -240,6 +241,18 @@ function PassionProject() {
                 It was a bit challenging at times, especially when I was figuring out how to handle uploads and downloads, but I learned a lot about building a full-featured backend. 
                 By the end, I had a pretty solid system with different user roles, file management, and communication features all working together and I achieved some interesting knowledge.
                     </p>
+                    <h4 className="text-xl text-darkBlack font-header mb-4 mt-4">Here is the           <a
+                    href="https://github.com/CCretu29/Photography-Blog-Backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body font-bold text-normalPurple text-xl hover:text-lightBlue "
+                >
+                    Git 
+                </a> that contains my project.</h4>
+
+                {/* Slideshow Component */}
+        <Slideshow />
+
             </div>
 
              {/* Documents */}
