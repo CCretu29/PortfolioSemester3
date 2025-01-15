@@ -114,66 +114,66 @@ function Studio() {
                     Mood boards were never my strong point but I did try my best. I created two mood board looking for inspiration on Pinterest.
                     I found one model that  has only pictures put one next to each other that I found interesting, and then chose some pictures that I thought give the aurora vibe.
                     The second mood board used the same pictures, except I added a bit of space, some logo ideas, some color pallets, and fonts.
-                    I got feedback on them from my peers, and also gave feedback to my peers too. 
+                    I got feedback on them from my peers, and also gave feedback to my peers too.
                     My peers feedback was that they mostly liked the colors, logo ideas and the sunrise vibe. They also liked the structure of the mood board with only pictures.
                     Improvement points were to make it look more professional, to structure things better so what font I want to use becomes more clear and maybe have a bit more diversity.
                     This are the two mood boards.
                     <div className="flex justify-center mt-4">
-                    <img src={moodboardAestetic} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
-                    <img src={moodboardOrganized} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
-                </div>
+                        <img src={moodboardAestetic} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                        <img src={moodboardOrganized} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                    </div>
 
-                <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Mood boards after feedback</h4>
-                   After all the team members made mood boards and got feedback on them, we voted and chose a style. Based on that style we created one more mood board to decide fonts and colors.
-                   I created mine trying to follow my peers advices, making the fonts clear, organizing everything, putting some logo ideas and colors.
-                   Feedback that I got from my team mates for it is that if I use one color pallet, the rest of the mood board should also use those colors, 
-                   that it can still look more professional even if it is organized, the fonts were still not clear, and that it looked more like an inspiration wall than a mood board. 
-                   They did like the logo ideas. 
-                   I learned from this feedback and next time when I will have to make a mood board I will take it in consideration, and inspire from my team mates good ideas from their mood boards.
-                   This is my mood board.
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Mood boards after feedback</h4>
+                    After all the team members made mood boards and got feedback on them, we voted and chose a style. Based on that style we created one more mood board to decide fonts and colors.
+                    I created mine trying to follow my peers advices, making the fonts clear, organizing everything, putting some logo ideas and colors.
+                    Feedback that I got from my team mates for it is that if I use one color pallet, the rest of the mood board should also use those colors,
+                    that it can still look more professional even if it is organized, the fonts were still not clear, and that it looked more like an inspiration wall than a mood board.
+                    They did like the logo ideas.
+                    I learned from this feedback and next time when I will have to make a mood board I will take it in consideration, and inspire from my team mates good ideas from their mood boards.
+                    This is my mood board.
                     <div className="flex justify-center mt-4">
-                    <img src={moodboardAfterFeedback} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
-                   </div>
+                        <img src={moodboardAfterFeedback} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                    </div>
 
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Logos</h4>
                     Some teachers from semester two know that I do not really like to design logos, because I do not really like the tool that I have to use for that.
                     This task I left to my team mates, but to contribute just a little bit, I draw some ideas for them to have inspiration.
-                    I am also not good at drawing, but that did not stop me to express my ideas. 
+                    I am also not good at drawing, but that did not stop me to express my ideas.
                     I made some sketches using our last mood board as inspiration, thinking what could also the name "Aurora" transmit.
                     I showed the drawings to my peers, and they liked them, and used them as inspiration initially.
                     We did decide on a letter logo at the end, choosing a professional style.
                     <div className="flex justify-center mt-4">
-                    <img src={logos} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
-                   </div>
+                        <img src={logos} alt="Learning GIT" className="w-1/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                    </div>
 
                     <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Website design</h4>
                     The team decided that some of us, can make a simple design idea to have as inspiration and start for our website.
                     I inspired from the mood board we chose we are going to follow, made a simple and basic structure and added the colors we wanted.
                     I got feedback on the design, that it looks pretty, that it follows the mood boards and it is a good start.
-                    Together with a colleague we compared our designs and started to create the prototype. 
+                    Together with a colleague we compared our designs and started to create the prototype.
                     I had an idea, for displaying the pictures with us. When you hover over
                     the picture it appears the name and some information about the person. I
                     experimented with different backgrounds and chose the transparent one.
                     My team mate also agreed the transparent background is the best idea for the hover.
-                    I experimented with some icon style, making different version and my peers chose the most fitted one. 
+                    I experimented with some icon style, making different version and my peers chose the most fitted one.
                     I also designed the contact section, where a team mate guided me to make it minimalistic and simple.
                     Me and the colleague that I was working with decided together that we should show some of our past personal project in our website for the client to see what we are capable of.
                     Our peers loved the idea and I helped design the project page, following my team mate style and completing the page.
                     In the following pictures you will see my iterative process.
                     <div className="flex flex-wrap justify-center mt-4">
-  <div className="flex justify-center w-full mb-4">
-    <img src={firstDesign} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
-    <img src={pictureIterations} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
-  </div>
-  <div className="flex justify-center w-full mb-4">
-    <img src={pictures} alt="Prototype" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
-    <img src={icons} alt="Icons" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
-  </div>
-  <div className="flex justify-center w-full">
-    <img src={contactSection} alt="Contact Section" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
-    <img src={projectPage} alt="Project Page" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
-  </div>
-</div>
+                        <div className="flex justify-center w-full mb-4">
+                            <img src={firstDesign} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                            <img src={pictureIterations} alt="Prototype" className="w-2/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                        </div>
+                        <div className="flex justify-center w-full mb-4">
+                            <img src={pictures} alt="Prototype" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                            <img src={icons} alt="Icons" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                        </div>
+                        <div className="flex justify-center w-full">
+                            <img src={contactSection} alt="Contact Section" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                            <img src={projectPage} alt="Project Page" className="w-1/2 mx-2 rounded-lg border-4 border-lightPurple" />
+                        </div>
+                    </div>
 
 
 

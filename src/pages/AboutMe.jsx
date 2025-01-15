@@ -203,11 +203,11 @@ function AboutMe() {
                 </p>
             </div>
 
-            {/* Helping a friend */}
+            {/* Helping friends */}
             <div className="flex flex-col items-start px-40 py-16">
-                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Helping a friend with code</h2>
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Helping my friends</h2>
                 <p className="text-md text-darkBlack font-body">
-                    This is a realization from how far I have come, and I am very pound of it. Sometimes I take big steps in my learning, sometimes small steps, but I am pound and happy every time I learn something, no matter the time frame.
+                    This is a realization from how far I have come, and I am very proud of it. Sometimes I take big steps in my learning, sometimes small steps, but I am proud and happy every time I learn something, no matter the time frame.
                     This time, not only I learned something technical, but I learned something about me and that is, that I have to trust myself, because I can do anything.
                     I learned that I can be confident and that with a little practice I can learn anything.
                     For the story to make sense I have to take you back in semester two. My first vanilla JavaScript lesson, me having no experience with it before,
@@ -221,6 +221,12 @@ function AboutMe() {
                     I will not explain here how to create a React project, because you already know, but you can ask me anytime and I will know.
                     I am always happy to help a friend in any matter, but looking back to see where I left of, and where I am now, I am so happy, and so exited to learn even more.
                     My love for programming grows with each day.
+                    Further, this friend asked me for help in deploying the website. I teach her how to put it on Git and deploy it like I did with mine. 
+                    I also helped her to create a Git conflict and solve it. 
+                </p>
+                <p className="text-md text-darkBlack font-body">
+                    I always loved writing, polishing documents and make them look professional. Someone, who had the internship this semester, asked me to check their documents and polish them.
+                    I arranged the content, change the fonts, added space between paragraphs and named the pictures. I was happy to help and that my skills were recognized and used by this person. 
                 </p>
             </div>
 
@@ -238,6 +244,18 @@ function AboutMe() {
                 </p>
             </div>
 
+            {/* Interviews */}
+            <div className="flex flex-col items-start px-40 py-16">
+                <h2 className="text-3xl font-bold italic font-header text-normalPurple mb-4">Interviews</h2>
+                <p className="text-md text-darkBlack font-body">
+                    This semester I participated to four interviews. One of them was about my perception and experiences from when I arrived in the Netherlands for someone who was doing a research paper,
+                    two of them were about Student +, mainly feedback for them, and one was feedback on the Fontys program.
+                    I participated at this interviews because I believe that my opinion counted since I was asked, but also to practice interview skills for when I will be applying to internships.
+                    I found it a very nice and interesting experience, that I am going to keep doing if I will have the chance. 
+
+                </p>
+            </div>
+
 
 
             {/* Reflection */}
@@ -249,6 +267,11 @@ function AboutMe() {
                     I checked all the PDF's to be accessible and have same fonts, I changed the names of our learning outcomes like in Canvas, I gave access to all my teachers to the Git repositories.
                     The lesson that I have learned from this, is to double check everything before submitting, to check documents, links, names and spelling.
                     I was also advised to talk more about my iterations, and connect them better, witch I hope I managed to do.
+                </p>
+                <p className="text-md text-darkBlack font-body">
+                    From my third review I made the feedback changes, and presented my portfolio, my extra work and passion project. The teachers were pleased with my work, but most importantly I was.
+                    After three Media Design semester I feel ready and exited to start a new path in specialization and internships. I feel that I have learned a lot of useful things, and also that I grew on personal and professional plan.
+                    I am grateful for the teachers that I had, for the knowledge and skills and for the chance that I had to grow. 
                 </p>
             </div>
 

@@ -8,8 +8,11 @@ import Personas from "../../assets/pdf/Passion/Personas.pdf";
 import AIResearch from "../../assets/pdf/Passion/CompetingWithAIResearchDocument.pdf";
 import UserScript from "../../assets/pdf/Passion/UserTestScripts.pdf";
 import UserAccord from "../../assets/pdf/Passion/UserTestAgreements.pdf";
+import ProjectReport from "../../assets/pdf/Passion/ProjectReport.pdf";
+import AdvisoryReport from "../../assets/pdf/Passion/AdvisoryReport.pdf";
 // pic links
 import planning from "../../assets/photos/planning.jpg";
+import dataBase from "../../assets/photos/dataBase.jpg";
 
 function PassionProject() {
     const aboutMeRef = useRef(null);
@@ -193,7 +196,78 @@ function PassionProject() {
             <div className="px-40 py-24">
                 <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Development and deploy</h3>
                 <p className="text-lg text-darkBlack font-body">
-                    This is the text to be added.
+                    Before the Christmas holiday I started to create the Node project, by running commands in the terminal.
+                    Next step was to create the structure of the project. I wanted to have a basic structure first so I can understand better the roles of the folders, files and code. 
+                    I looked up other similar projects and found that they have similar structure and replicate it. I created "Controllers", "Routes", "Services", "Modules" and "Config". 
+                    In a backend project, the folder structure that I created helps organize and separate different aspects of the application.
+                    Controllers handle the application's logic, processing requests and responses.
+                    Routes define API endpoints and direct traffic to the appropriate controllers.
+                    Services contain the core business logic, implementing complex operations and data processing.
+                    Modules bundle related components together, improving code organization and reusability.
+                    The Config folder stores configuration files, including environment variables and application-wide settings.
+                </p>
+
+                <div className="flex justify-center mt-4">
+                    <img src={dataBase} alt="AppSite" className="w-4/2 md:w-1/3 mx-2 rounded-lg border-8 border-lightPurple" />
+                </div>
+                
+                <br></br>
+                <p className="text-lg text-darkBlack font-body">
+                    The next step was to connect to a database. I logged into my MongoDB Atlas account at cloud.mongodb.com.
+                    Once I was in, I saw my cluster dashboard and clicked on the "Connect" button next to the cluster I wanted to use.
+                    In the connection dialog, I chose to use the Data Explorer right there in the browser.
+                    Before I could actually access my data, I had to make sure my IP address was whitelisted in the Network Access settings.
+                    I also double-checked that I had a database user set up with the right permissions.
+                    Once all that was sorted, I could view and interact with my databases and collections directly through the Atlas web interface.
+                    I created a separate function called connectDB to handle the database connection using Mongoose.
+                    In this function, I first required mongoose and dotenv to load my environment variables. 
+                    Then, I set up an async function that tries to connect to the database using the MongoDB URI I stored in my .env file.
+                    I made sure to add some error checking – if the URI isn't defined in the .env file, I throw an error.
+                    I used try-catch to handle any connection errors, logging them to the console and exiting the process if something goes wrong.
+                    If the connection is successful, I log a success message.
+                    Finally, I exported this function so I could use it in my main application file. 
+                    </p>
+                    <br></br>
+                <p className="text-lg text-darkBlack font-body">
+                After setting up my MongoDB connection, I started building out the rest of my project.
+                I started by creating user authentication, learning how to make a base user and an admin user.
+                I set up routes for getting user info and admin info, and implemented delete functionality.
+                One of the cool features I added was the ability for admins to upload and delete pictures, while regular users could buy and download them.
+                I made sure to implement proper authentication and authorization using middleware to keep everything secure.
+                I also added a messaging system where users could send messages and admins could receive them.
+                Throughout the process, I used Postman to test all my API endpoints. 
+                I checked my MongoDB Atlas cluster in the browser to make sure all the data was being stored and retrieved correctly.
+                It was a bit challenging at times, especially when I was figuring out how to handle uploads and downloads, but I learned a lot about building a full-featured backend. 
+                By the end, I had a pretty solid system with different user roles, file management, and communication features all working together and I achieved some interesting knowledge.
+                    </p>
+            </div>
+
+             {/* Documents */}
+             <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Documents</h3>
+                <p className="text-lg text-darkBlack font-body">
+                    Lastly, I created the final documents. I used my group project template for the Project report and Advisory report.
+                    In the project report, I outlined the context, goals, and requirements of the website, as well as the development process I followed using the Double Diamond methodology.
+                    The advisory report provides a more detailed analysis of the project, including objectives, methodology, and recommendations for future development.
+                    I successfully implemented the backend using Node.js, Express, and MongoDB, but due to time constraints, I couldn't complete the front-end development as initially planned.
+                    These documents reflect my experience in backend development, database management, and project planning, while also highlighting areas for future improvement and expansion of the project. 
+                </p>
+                <br></br>
+                <p className="text-lg text-darkBlack font-body">This is the <a href={ProjectReport} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Project Report</a>.  </p>
+                    <br></br>
+                    <p className="text-lg text-darkBlack font-body"> This is the <a href={AdvisoryReport} target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Advisory Report</a>.  </p>
+            </div>
+
+            {/* Reflection */}
+            <div className="px-40 py-24">
+                <h3 className="text-3xl text-normalPurple font-bold italic font-header mb-4">Reflection</h3>
+                <p className="text-lg text-darkBlack font-body">
+                This project, even if it was a short one, thought me a lot. I had the opportunity to improve my research, design and UX skills and to also improve my coding knowledge.
+                At the beginning of this project I had a plan to create every single feature in back end, to also make the front end and the connection between them.
+                Due to time constrains, I was able to implement most of the back end leaving the other features.
+                I did show my knowledge in React and connections through other project but I would have liked to finish this one too.
+                I will continue to work on this project and finish it, even if it will not count for my grade anymore, it will count for me.
+                I am proud of the work I managed to complete and grateful for the opportunity to learn more.
                 </p>
             </div>
 
