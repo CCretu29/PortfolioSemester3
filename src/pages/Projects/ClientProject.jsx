@@ -175,14 +175,18 @@ function ClientProject() {
                     I did not give up and asked for help from one of my peers and my boyfriend that has done software profile and an AI application for a start up.
                     My colleague explained to me what the AI ia supposed to do and my boyfriend taught me the technical part. I already knew what a controller and service file is from my semester two project, and how to create the backend part, but did not know how to integrate the AI.
                     I also commented my code writing what everything does for my peers to understand what I did.
+                    </p>
                     <br></br>
+                    <p className="text-lg text-darkBlack font-body">
                     This is how I made my part for this project:
                     I built a Node.js application using Express.js that offers audio transcription and text-to-speech services.
                     It uses the Replicate API to handle these tasks, with authentication set up through environment variables.
                     The app has two main functions: one for converting audio files, URLs, or base64 data into text, and another for turning text into speech audio files.
                     Both functions use the Replicate API to perform these conversions. The server is configured to handle large data and runs on a specified port, 8080.
                     This allows complex AI tasks to be accessed easily through simple HTTP requests.
+                    </p>
                     <br></br>
+                    <p className="text-lg text-darkBlack font-body">
                     The application uses the Replicate API for AI-powered processing, with authentication handled through environment variables loaded by dotenv.
                     It features two main controllers: transcribeAudioController and textToSpeechController.
                     The transcribeAudioController accepts audio input in various forms, such as uploaded files, URLs, or base64-encoded data, converts it to text using the Replicate API, and returns the transcription.
@@ -248,6 +252,7 @@ function ClientProject() {
                     The time was too little so my peers added more content, and we rehearsed again, this time taking longer, witch we wanted.
                     On the Sunday before, I also repeated my part to be ready for the presentation.
                 </p>
+                <br></br>
                 <p className="text-lg text-darkBlack font-body">
                     The presentation day came, I dressed up nicely and professional and came to school early. Our turn came and we presented our product.
                     I was not nervous before, but I was a little during the presentation, and the things that I rehearsed a night before did not come out line by line, so I improvised.
@@ -255,6 +260,7 @@ function ClientProject() {
                     From this I learned that I do not have to let my emotions lead me. It was still okay and I said what I had to, but not with fancy words.
                     The client was happy with our product and we also got good feedback from the teacher, witch said that it was a good group project, that of course there will always be room for improvement, but overall it is good.
                 </p>
+                <br></br>
                 <p className="text-lg text-darkBlack font-body">
                     We filmed our presentation, as an exercise to see how we can improve in future presentations.
                     For me, this presentation was different from the others because here I was controlled by emotions, and could not present as I usually do.
@@ -270,7 +276,9 @@ function ClientProject() {
                     - to look at the client and audience more
                     <br></br>
                     - to have a bigger part in the presentation, because half of the time I was just standing there
+                    </p>
                     <br></br>
+                    <p className="text-lg text-darkBlack font-body">
                     One nice feedback that I got from our teacher is that the whole group should not stay all in the front of the screen while only one is presenting.
                     He told us that this gets distracting from the presentation, and it would be better if we stay in the benches.
                     I agreed with the advise, but not with the benches. I would suggest to stay aside and then come to the front to not disturb people getting out of the bench.

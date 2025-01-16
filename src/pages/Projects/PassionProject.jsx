@@ -148,32 +148,34 @@ function PassionProject() {
                     I decided to take a minimum of four user tests per prototype and also have one or two new people every time, to try to reach a bigger mass of people.
                     This is because my target audience is very vast and this method was approved and validated by a teacher.
                     In developing the final prototype for my photography blog, I followed a comprehensive iterative process, incorporating user feedback and design principles at each stage:
+                    </p>
                     <br></br>
-                    Wireframe Creation:
+                    <p className="text-lg text-darkBlack font-body">
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Wireframe Creation:</h4>
                     I started by creating simple wireframes to establish the basic structure and navigation of the website. These wireframes focused on layout and functionality without any color or detailed design elements.
                     <br></br>
-                    Initial User Testing:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Initial User Testing:</h4>
                     I conducted user tests with the wireframes, gathering feedback on navigation and overall structure. This phase revealed the need for more intuitive navigation and a clearer presentation of photo categories. Importantly, I created a user test approval document, ensuring ethical testing practices and obtaining consent from all participants.
                     <br></br>
-                    First Functional Prototype:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">First Functional Prototype:</h4>
                     Incorporating the initial feedback, I developed the first functional prototype. This version included improved navigation, a more structured gallery, and basic search and filter functions. Based on user suggestions, I added a "Browse All" button and ensured the category names were clearly visible without scrolling.
                     <br></br>
-                    Color Experimentation:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Color Experimentation:</h4> 
                     At this stage, I began experimenting with different color schemes. I chose to focus on purple and blue, understanding that purple is associated with creativity and blue with trust - both crucial elements for a photography portfolio.
                     <br></br>
-                    Peer Review:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Peer Review:</h4>
                     I consulted with my peers, showing them different color variations and layouts. Their input was valuable in refining the aesthetic direction of the site.
                     <br></br>
-                    Second Round of User Testing:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Second Round of User Testing:</h4>
                     With the colored prototype, I conducted another round of user tests. Users appreciated the clean design but requested more information about licensing and usage rights. They also suggested making the contact information more prominent and adding a fixed navigation bar for easier access to all options.
                     <br></br>
-                    Refinement and Feature Addition:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Refinement and Feature Addition:</h4>
                     Based on this feedback, I added informative icons for licensing details and clarified the purchase process. I implemented a fixed navigation bar and made the contact information more accessible from the main page. I also fine-tuned the color palette to ensure it complemented the photographs without overshadowing them.
                     <br></br>
-                    Final Adjustments:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Final Adjustments:</h4>
                     In the last iteration, I made subtle adjustments to improve overall user experience, such as refining button placements and enhancing the responsiveness of the gallery. I also added multiple ways to access the gallery and implemented both a filter function and a "view all" option, as suggested by users.
                     <br></br>
-                    Final Feedback:
+                    <h4 className="text-2xl text-normalPurple font-header mb-4 mt-4">Final Feedback:</h4>
                     The last round of testing confirmed that the interface was intuitive and efficient for a diverse range of users. Users particularly appreciated the clear pricing structure, the easy-to-find licensing information, and the multiple ways to browse and filter images.
                     Throughout this process, I consistently sought feedback from different user groups and peers, always ensuring I had proper documentation and approval for user testing. I paid special attention to how the design elements, particularly the color scheme, affected the perception and usability of the site.
                     <br></br>
