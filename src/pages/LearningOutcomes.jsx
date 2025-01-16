@@ -24,7 +24,9 @@ import Personas from "../../src/assets/pdf/Passion/Personas.pdf";
 import UserTestAgreed from "../../src/assets/pdf/Passion/UserTestAgreements.pdf";
 import UserTest from "../../src/assets/pdf/Passion/UserTestScripts.pdf";
 import ReadingGuideFour from "../assets/pdf/Personal/ReadingGuide4.0.pdf";  //reading guide4
-//pics links
+import ReadingGuideFive from "../assets/pdf/Personal/ReadingGuide5.0.pdf";  //reading guide5
+import ProjectPReport from "../../src/assets/pdf/Passion/ProjectReport.pdf";
+import AdvicePReport from "../../src/assets/pdf/Passion/AdvisoryReport.pdf";
 
 
 
@@ -83,6 +85,7 @@ function LearningOutcomesPage() {
                                 <li><a href={ReadingGuideTwo} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version2</a></li>
                                 <li><a href={ReadingGuideThree} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version3</a></li>
                                 <li><a href={ReadingGuideFour} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version4</a></li>
+                                <li><a href={ReadingGuideFive} target="_blank" rel="noopener noreferrer" className="underline">ReadingGuide version5</a></li>
                             </ul>
                         </div>
                     </div>
@@ -110,7 +113,7 @@ function LearningOutcomesPage() {
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Proficient</p>
+                            <p className="text-md mb-2">Advanced</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
@@ -131,15 +134,17 @@ function LearningOutcomesPage() {
                                 <li><a href="https://github.com/CCretu29" target="_blank" rel="noopener noreferrer" className="underline">MY personal GitHub</a></li>
                                 <li><a href="https://git.fhict.nl/I509068/efteling-mijn-sprookje" target="_blank" rel="noopener noreferrer" className="underline">Group Git 1</a></li>
                                 <li><a href="https://git.fhict.nl/I353593/mijnsprookje-pwa" target="_blank" rel="noopener noreferrer" className="underline">Group Git 2</a></li>
+                                <li><a href="https://github.com/CCretu29/Photography-Blog-Backend" target="_blank" rel="noopener noreferrer" className="underline">Passion project Git</a></li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Grade:</h3>
-                            <p className="text-md mb-2">Proficient</p>
+                            <p className="text-md mb-2">Advanced</p>
                         </div>
                         <div>
                             <h3 className="text-xl font-body mb-2 text-lightPurple">Reflection:</h3>
-                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of coding tasks, learned about Progressive web app, remembered some basic JavaScript, deployed my portfolio and learned a lot more about GIT, also learned how to work with AI and integrate it in code.
+                            <p className="text-md mb-2">I believe that I proved my grade because I completed a lot of coding tasks, learned about Progressive web app, remembered some basic JavaScript, deployed my portfolio and learned a lot more about GIT.
+                                I also remembered how to connect front end to back end and connect to a database, learned how to work with AI and integrate it in code and how to built a basic back end application.
                             </p>
                         </div>
                     </div>
@@ -155,7 +160,7 @@ function LearningOutcomesPage() {
                                 <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=0-1&node-type=canvas&t=PHsTj2p6rDpklHJJ-0" target="_blank" rel="noopener noreferrer" className="underline">PortfolioDesign</a></li>
                                 <li><a href={StudioDesign} target="_blank" rel="noopener noreferrer" className="underline">StudioDesign</a></li>
                                 <li><a href={DesignDocClient} target="_blank" rel="noopener noreferrer" className="underline">Design Document Client Project</a></li>
-                                <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=207-4&t=eZM1NyG2dTdNshOh-1" target="_blank" rel="noopener noreferrer" className="text-xl font-header font-bold text-normalPurple underline">Passion project website design</a></li>
+                                <li><a href="https://www.figma.com/design/dtoTd0hTmDW7OoXVZ4oM5L/sem3?node-id=207-4&t=eZM1NyG2dTdNshOh-1" target="_blank" rel="noopener noreferrer" className="underline">Passion project website design</a></li>
                             </ul>
                         </div>
                         <div>
@@ -185,6 +190,8 @@ function LearningOutcomesPage() {
                                 <li><a href={AdviceReport} target="_blank" rel="noopener noreferrer" className="underline">AdviseReport - Group project</a></li>
                                 <li><a href={ProjectPlanPassionProjectAfterFeedback} target="_blank" rel="noopener noreferrer" className="underline">ProjectPlan - Passion Project</a></li>
                                 <li><a href={CompeteAI} target="_blank" rel="noopener noreferrer" className="underline">Competing with AI research document - Passion Project</a></li>
+                                <li><a href={ProjectPReport} target="_blank" rel="noopener noreferrer" className="underline">ProjectReport - Passion project</a></li>
+                                <li><a href={AdvicePReport} target="_blank" rel="noopener noreferrer" className="underline">AdviseReport - Passion project</a></li>
                             </ul>
                         </div>
                         <div>
